@@ -6,6 +6,7 @@ let selectedGem = null;
 // DOM elements
 const gemSearch = document.getElementById('gem-search');
 const gemDropdown = document.getElementById('gem-dropdown');
+const levelSelector = document.getElementById('level-selector');
 const gemInfo = document.getElementById('gem-info');
 const selectedGemName = document.getElementById('selected-gem-name');
 const selectedGemTags = document.getElementById('selected-gem-tags');
@@ -42,7 +43,12 @@ function initializeSearch() {
     gemSearch.addEventListener('focus', handleSearch);
     gemSearch.addEventListener('blur', hideDropdown);
     
-    // Filter buttons (removed - no longer needed)
+    // Level selector
+    levelSelector.addEventListener('change', () => {
+        if (selectedGem) {
+            generateModifiers();
+        }
+    });
     
     // Export buttons
     copyBtn.addEventListener('click', copyToClipboard);
@@ -124,48 +130,103 @@ function selectGem(gem) {
     generateModifiers();
 }
 
+/*
+ * Path of Exile Affix System Notes:
+ * - Equipment can have 6 explicit affixes maximum
+ * - 3x Prefix affixes
+ * - 3x Suffix affixes
+ * - +# to Level modifiers are SUFFIX affixes
+ * - Maximum possible +level from suffixes: 3 (one per suffix slot)
+ * - Future: May explore other ways to boost gem levels (prefix mods, implicits, etc.)
+ */
+
 // Generate possible modifiers for selected gem
 function generateModifiers() {
     if (!selectedGem) return;
     
     const modifiers = [];
+    const minLevel = parseInt(levelSelector.value);
     
-    // Only explicit amulet prefix modifiers for damage types
-    const amuletPrefixes = [
-        { text: '+1 to Level of all Lightning Skill Gems', tag: 'Lightning' },
-        { text: '+1 to Level of all Cold Skill Gems', tag: 'Cold' },
-        { text: '+1 to Level of all Physical Skill Gems', tag: 'Physical' },
-        { text: '+1 to Level of all Fire Skill Gems', tag: 'Fire' },
-        { text: '+1 to Level of all Chaos Skill Gems', tag: 'Chaos' }
+    // Calculate all available modifiers for this gem
+    const availableModifiers = [];
+    
+    // Generic modifier that affects all skill gems (suffix)
+    availableModifiers.push({
+        text: '+1 to Level of all Skill Gems',
+        type: 'generic',
+        priority: 0,
+        tag: 'All',
+        level: 1
+    });
+    
+    // Explicit amulet suffix modifiers for damage types
+    const amuletSuffixes = [
+        { text: '+1 to Level of all Lightning Skill Gems', tag: 'Lightning', level: 1 },
+        { text: '+1 to Level of all Cold Skill Gems', tag: 'Cold', level: 1 },
+        { text: '+1 to Level of all Physical Skill Gems', tag: 'Physical', level: 1 },
+        { text: '+1 to Level of all Fire Skill Gems', tag: 'Fire', level: 1 },
+        { text: '+1 to Level of all Chaos Skill Gems', tag: 'Chaos', level: 1 }
     ];
     
-    // Only include modifiers that match the selected gem's tags
-    amuletPrefixes.forEach(modifier => {
+    // Add matching damage type modifiers
+    amuletSuffixes.forEach(modifier => {
         if (selectedGem.tags.includes(modifier.tag)) {
-            modifiers.push({
+            availableModifiers.push({
                 text: modifier.text,
                 type: 'specific',
                 priority: 1,
-                tag: modifier.tag
+                tag: modifier.tag,
+                level: modifier.level
             });
         }
     });
     
-    // Sort modifiers alphabetically
-    modifiers.sort((a, b) => a.text.localeCompare(b.text));
+    // Calculate maximum possible level boost (limited by suffix slots: max 3)
+    const maxPossibleLevel = Math.min(3, availableModifiers.reduce((sum, mod) => sum + mod.level, 0));
     
-    // Display modifiers
-    displayModifiers(modifiers);
+    // Determine which modifiers to show
+    let showWarning = false;
+    
+    if (maxPossibleLevel < minLevel) {
+        // Not enough modifiers to reach target level, show all available
+        showWarning = true;
+        modifiers.push(...availableModifiers);
+    } else {
+        // Show all available modifiers when target is achievable
+        modifiers.push(...availableModifiers);
+    }
+    
+    // Sort modifiers by priority (generic first), then alphabetically
+    modifiers.sort((a, b) => {
+        if (a.priority !== b.priority) {
+            return a.priority - b.priority;
+        }
+        return a.text.localeCompare(b.text);
+    });
+    
+    // Display modifiers with warning if needed
+    displayModifiers(modifiers, showWarning, maxPossibleLevel, minLevel);
 }
 
 // Display modifiers in the results section
-function displayModifiers(modifiers) {
+function displayModifiers(modifiers, showWarning = false, maxPossibleLevel = 0, targetLevel = 0) {
     modList.innerHTML = '';
+    
+    // Show warning message if target level cannot be reached
+    if (showWarning) {
+        const warningMessage = document.createElement('div');
+        warningMessage.className = 'warning-message';
+        warningMessage.innerHTML = `
+            <strong>⚠️ Warning:</strong> Cannot reach +${targetLevel} levels for this gem.<br>
+            Maximum possible: +${maxPossibleLevel} levels (showing highest possible combination)
+        `;
+        modList.appendChild(warningMessage);
+    }
     
     if (modifiers.length === 0) {
         const noModsMessage = document.createElement('div');
         noModsMessage.className = 'no-mods-message';
-        noModsMessage.textContent = 'No amulet prefix modifiers available for this gem type.';
+        noModsMessage.textContent = 'No amulet suffix modifiers available for this gem type.';
         modList.appendChild(noModsMessage);
     } else {
         modifiers.forEach(mod => {
@@ -178,7 +239,7 @@ function displayModifiers(modifiers) {
             
             const modType = document.createElement('span');
             modType.className = 'mod-type';
-            modType.textContent = `${mod.tag} Damage`;
+            modType.textContent = mod.tag === 'All' ? 'All Gems' : `${mod.tag} Damage`;
             
             modItem.appendChild(modText);
             modItem.appendChild(modType);

@@ -10,7 +10,7 @@ This is a lightweight web application for finding Path of Exile amulet prefix mo
 
 ### Core Components
 - **Frontend**: Vanilla JavaScript web application with HTML/CSS
-- **Data Layer**: Static JSON file (`gems_cleaned.json`) containing 719 gems (512 active + 207 support)
+- **Data Layer**: Static JSON file (`gems_cleaned.json`) containing active skill gems (updated via utility script)
 - **Search System**: Client-side autocomplete with real-time filtering
 - **Modifier Engine**: Tag-based matching system for amulet prefix modifiers
 
@@ -18,19 +18,22 @@ This is a lightweight web application for finding Path of Exile amulet prefix mo
 - `index.html`: Main application structure
 - `script.js`: Core application logic and search functionality
 - `styles.css`: UI styling and responsive design
-- `gems_cleaned.json`: Gem database with name and tag arrays
-- `test.html`: Testing interface
+- `gems_cleaned.json`: Gem database with name and tag arrays (updated via script)
+- `update-gems.js`: Data update utility script for fetching latest gem data
+- `README-UPDATE-SCRIPT.md`: Documentation for the update script
 
 ### Data Model
 ```javascript
 {
-  "total_count": 719,
+  "total_count": 500,
   "skill_gems": [
     {
       "name": "Gem Name",
       "tags": ["Tag1", "Tag2", "Damage Type", ...]
     }
-  ]
+  ],
+  "last_updated": "2025-07-16T14:47:23.511Z",
+  "source": "PoE Wiki API"
 }
 ```
 
@@ -45,8 +48,13 @@ python3 -m http.server 8000
 # Open http://localhost:8000 in browser
 ```
 
+### Data Updates
+```bash
+# Update gem data from PoE Wiki API
+node update-gems.js
+```
+
 ### Testing
-- Use `test.html` for development testing
 - No automated test suite currently exists
 - Manual testing through browser console
 
@@ -57,15 +65,23 @@ python3 -m http.server 8000
 - Real-time autocomplete with 10-result limit
 - Prioritizes exact matches over partial matches
 
-### Modifier Generation (`script.js:128-159`)
-- Matches gems to amulet prefix modifiers based on damage type tags
+### Modifier Generation (`script.js:144-203`)
+- Matches gems to amulet suffix modifiers based on damage type tags
 - Supported damage types: Lightning, Cold, Physical, Fire, Chaos
-- Only shows explicit amulet prefix modifiers (+1 to Level of all X Skill Gems)
+- Shows explicit amulet suffix modifiers (+1 to Level of all X Skill Gems)
+- Maximum level boost: 3 (limited by suffix slots)
+
+### Path of Exile Affix System
+- Equipment has 6 explicit affixes: 3 prefixes + 3 suffixes
+- +Level modifiers are SUFFIX affixes only
+- Maximum possible +level from suffixes: 3 levels
+- Generic modifier: "+1 to Level of all Skill Gems" (affects all gems)
+- Specific modifiers: "+1 to Level of all [Type] Skill Gems" (damage type specific)
 
 ### Data Filtering
-- Active skill gems: 512 searchable gems
-- Support gems: 207 gems (excluded from search)
+- Active skill gems: Searchable gems (support gems excluded)
 - Damage type tags determine available modifiers
+- Data updated via `update-gems.js` utility script
 
 ## Important Implementation Details
 
