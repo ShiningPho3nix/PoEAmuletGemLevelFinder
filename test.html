@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PoE Gem Level Finder Test</title>
+</head>
+<body>
+    <h1>Testing JSON Loading</h1>
+    <div id="output"></div>
+    
+    <script>
+        async function testApp() {
+            try {
+                const response = await fetch('gems_cleaned.json');
+                const data = await response.json();
+                
+                const output = document.getElementById('output');
+                output.innerHTML = `
+                    <p>✅ JSON loaded successfully!</p>
+                    <p>Total gems: ${data.total_count}</p>
+                    <p>First gem: ${data.skill_gems[0].name}</p>
+                    <p>First gem tags: ${data.skill_gems[0].tags.join(', ')}</p>
+                    
+                    <h2>Sample Modifiers for ${data.skill_gems[0].name}:</h2>
+                    <ul>
+                        <li>+# to Level of all Skill Gems</li>
+                        ${data.skill_gems[0].tags.filter(tag => tag !== 'Support').map(tag => 
+                            `<li>+# to Level of all ${tag} Skill Gems</li>`
+                        ).join('')}
+                    </ul>
+                `;
+                
+            } catch (error) {
+                document.getElementById('output').innerHTML = `❌ Error: ${error.message}`;
+            }
+        }
+        
+        testApp();
+    </script>
+</body>
+</html>

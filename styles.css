@@ -1,0 +1,345 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ecf0f1;
+    opacity: 0.9;
+}
+
+/* Main content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Search section */
+.search-section {
+    background: #2c2c2c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #3498db;
+    font-size: 1.1em;
+}
+
+#gem-search {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    background: #333;
+    color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#gem-search:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+}
+
+/* Dropdown */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #333;
+    border: 2px solid #444;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown.hidden {
+    display: none;
+}
+
+.dropdown-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background: #3498db;
+    color: #fff;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+/* Gem info */
+.gem-info {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.gem-info h3 {
+    color: #3498db;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.gem-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gem-name {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.gem-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background: #3498db;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+/* Results section */
+.results-section {
+    background: #2c2c2c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.results-section h3 {
+    color: #3498db;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Filters removed - no longer needed for amulet-specific modifiers */
+
+/* Modifier list */
+.mod-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.no-mods-message {
+    text-align: center;
+    padding: 30px;
+    color: #bbb;
+    font-style: italic;
+    background: #333;
+    border-radius: 6px;
+    border: 2px dashed #444;
+}
+
+.mod-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+    border-radius: 6px;
+    border-left: 4px solid #666;
+    transition: all 0.3s;
+}
+
+.mod-item:hover {
+    background: #3a3a3a;
+    transform: translateX(5px);
+}
+
+.mod-item.universal {
+    border-left-color: #f39c12;
+}
+
+.mod-item.specific {
+    border-left-color: #3498db;
+}
+
+.mod-text {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.mod-type {
+    background: #444;
+    color: #bbb;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.mod-item.universal .mod-type {
+    background: #f39c12;
+    color: #fff;
+}
+
+.mod-item.specific .mod-type {
+    background: #3498db;
+    color: #fff;
+}
+
+/* Export section */
+.export-section {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    padding: 12px 24px;
+    border: 2px solid #27ae60;
+    background: #27ae60;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.action-btn:hover {
+    background: #2ecc71;
+    border-color: #2ecc71;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+.action-btn:active {
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: #2c2c2c;
+    border-radius: 10px;
+    color: #bbb;
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+    
+    .search-section,
+    .results-section {
+        padding: 20px;
+    }
+    
+    .gem-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .mod-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .mod-filters {
+        justify-content: center;
+    }
+    
+    .export-section {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-btn,
+    .action-btn {
+        flex: 1;
+        min-width: 120px;
+    }
+    
+    .gem-tags {
+        justify-content: center;
+    }
+}

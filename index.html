@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoE Gem Level Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Path of Exile Gem Level Finder</h1>
+            <p>Find equipment modifiers that boost your skill gems</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="input-group">
+                    <label for="gem-search">Select a Skill Gem:</label>
+                    <input type="text" id="gem-search" placeholder="Type gem name..." autocomplete="off">
+                    <div id="gem-dropdown" class="dropdown hidden"></div>
+                </div>
+                
+                <div class="gem-info" id="gem-info" style="display: none;">
+                    <h3>Selected Gem:</h3>
+                    <div class="gem-details">
+                        <span class="gem-name" id="selected-gem-name"></span>
+                        <div class="gem-tags" id="selected-gem-tags"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-section" id="results-section" style="display: none;">
+                <h3>Available Amulet Prefix Modifiers:</h3>
+                
+                <div class="mod-list" id="mod-list">
+                    <!-- Modifiers will be populated here -->
+                </div>
+                
+                <div class="export-section">
+                    <button id="copy-btn" class="action-btn">Copy to Clipboard</button>
+                    <button id="export-btn" class="action-btn">Export as Text</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Data from Path of Exile Wiki | Total Gems: <span id="gem-count">0</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

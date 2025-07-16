@@ -1,0 +1,6452 @@
+{
+  "skill_gems": [
+    {
+      "name": "Absolution",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "AoE",
+        "Physical",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Absolution of Inspiring",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "Physical",
+        "Lightning",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Added Chaos Damage Support",
+      "tags": [
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Added Cold Damage Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Added Fire Damage Support",
+      "tags": [
+        "Fire",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Added Lightning Damage Support",
+      "tags": [
+        "Lightning",
+        "Support"
+      ]
+    },
+    {
+      "name": "Additional Accuracy Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Advanced Traps Support",
+      "tags": [
+        "Trap",
+        "Support"
+      ]
+    },
+    {
+      "name": "Alchemists Mark",
+      "tags": [
+        "Spell",
+        "Curse",
+        "Mark",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Ambush",
+      "tags": [
+        "Critical",
+        "Spell",
+        "Movement",
+        "Duration",
+        "Travel"
+      ]
+    },
+    {
+      "name": "Ancestral Call Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Ancestral Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Anger",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Animate Guardian",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Animate Guardian of Smiting",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Animate Weapon",
+      "tags": [
+        "Duration",
+        "Minion",
+        "Spell",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Animate Weapon of Ranged Arms",
+      "tags": [
+        "Duration",
+        "Minion",
+        "Spell",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Animate Weapon of Self Reflection",
+      "tags": [
+        "Duration",
+        "Minion",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Arc",
+      "tags": [
+        "Spell",
+        "Chaining",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Arc of Oscillating",
+      "tags": [
+        "Spell",
+        "Chaining",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Arc of Surging",
+      "tags": [
+        "Spell",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Arcane Cloak",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Guard",
+        "Lightning",
+        "Arcane"
+      ]
+    },
+    {
+      "name": "Arcane Surge Support",
+      "tags": [
+        "Arcane",
+        "Support",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Arcanist Brand",
+      "tags": [
+        "Trigger",
+        "Spell",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Archmage Support",
+      "tags": [
+        "Lightning",
+        "Arcane",
+        "Support",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Arctic Armour",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Armageddon Brand",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Armageddon Brand of Recall",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Armageddon Brand of Volatility",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Arrogance Support",
+      "tags": [
+        "Aura",
+        "Support"
+      ]
+    },
+    {
+      "name": "Arrow Nova Support",
+      "tags": [
+        "Bow",
+        "Attack",
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Artillery Ballista",
+      "tags": [
+        "Attack",
+        "Totem",
+        "AoE",
+        "Fire",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Artillery Ballista of Cross Strafe",
+      "tags": [
+        "Attack",
+        "Totem",
+        "AoE",
+        "Fire",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Artillery Ballista of Focus Fire",
+      "tags": [
+        "Attack",
+        "Totem",
+        "AoE",
+        "Fire",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Assassins Mark",
+      "tags": [
+        "Critical",
+        "Spell",
+        "Curse",
+        "Mark"
+      ]
+    },
+    {
+      "name": "Autoexertion",
+      "tags": [
+        "Warcry",
+        "Trigger",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Automation",
+      "tags": [
+        "Trigger",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Awakened Added Chaos Damage Support",
+      "tags": [
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Added Cold Damage Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Added Fire Damage Support",
+      "tags": [
+        "Fire",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Added Lightning Damage Support",
+      "tags": [
+        "Lightning",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Ancestral Call Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Awakened Arrow Nova Support",
+      "tags": [
+        "Bow",
+        "Attack",
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Awakened Blasphemy Support",
+      "tags": [
+        "Support",
+        "Hex",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Awakened Brutality Support",
+      "tags": [
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Burning Damage Support",
+      "tags": [
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Cast On Critical Strike Support",
+      "tags": [
+        "Critical",
+        "Support",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Awakened Cast While Channelling Support",
+      "tags": [
+        "Support",
+        "Channelling",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Awakened Chain Support",
+      "tags": [
+        "Support",
+        "Chaining",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Awakened Cold Penetration Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Controlled Destruction Support",
+      "tags": [
+        "Spell",
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Deadly Ailments Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Elemental Damage with Attacks Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Elemental Focus Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Empower Support",
+      "tags": [
+        "Exceptional",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Enhance Support",
+      "tags": [
+        "Exceptional",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Enlighten Support",
+      "tags": [
+        "Exceptional",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Fire Penetration Support",
+      "tags": [
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Fork Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Awakened Generosity Support",
+      "tags": [
+        "Support",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Awakened Greater Multiple Projectiles Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Awakened Hextouch Support",
+      "tags": [
+        "Support",
+        "Hex",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Awakened Increased Area of Effect Support",
+      "tags": [
+        "Support",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Awakened Lightning Penetration Support",
+      "tags": [
+        "Lightning",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Melee Physical Damage Support",
+      "tags": [
+        "Melee",
+        "Physical",
+        "Support",
+        "Attack"
+      ]
+    },
+    {
+      "name": "Awakened Melee Splash Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Awakened Minion Damage Support",
+      "tags": [
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Awakened Multistrike Support",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Spell Cascade Support",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Spell Echo Support",
+      "tags": [
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Swift Affliction Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Awakened Unbound Ailments Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Unleash Support",
+      "tags": [
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Vicious Projectiles Support",
+      "tags": [
+        "Projectile",
+        "Attack",
+        "Physical",
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Awakened Void Manipulation Support",
+      "tags": [
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Ball Lightning",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Ball Lightning of Orbiting",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Ball Lightning of Static",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Ballista Totem Support",
+      "tags": [
+        "Bow",
+        "Projectile",
+        "Support",
+        "Totem"
+      ]
+    },
+    {
+      "name": "Bane",
+      "tags": [
+        "Chaos",
+        "Trigger",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Bane of Condemnation",
+      "tags": [
+        "Chaos",
+        "Trigger",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Barrage",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Barrage of Volley Fire",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Barrage Support",
+      "tags": [
+        "Bow",
+        "Attack",
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Battlemages Cry",
+      "tags": [
+        "Warcry",
+        "Critical",
+        "Trigger",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Bear Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Bear Trap of Skewers",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Behead Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Berserk",
+      "tags": [
+        "Spell"
+      ]
+    },
+    {
+      "name": "Blade Blast",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Blade Blast of Dagger Detonation",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Physical",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Blade Blast of Unloading",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Physical",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Blade Flurry",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Channelling",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Blade Flurry of Incision",
+      "tags": [
+        "Critical",
+        "Attack",
+        "AoE",
+        "Channelling",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Blade Trap",
+      "tags": [
+        "Trap",
+        "Attack",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Blade Trap of Greatswords",
+      "tags": [
+        "Trap",
+        "Attack",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Blade Trap of Laceration",
+      "tags": [
+        "Trap",
+        "Attack",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Blade Vortex",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Blade Vortex of the Scythe",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Bladefall",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Physical",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Bladefall of Impaling",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Bladefall of Volleys",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Bladestorm",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Bladestorm of Uncertainty",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Blasphemy Support",
+      "tags": [
+        "Support",
+        "Hex",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Blast Rain",
+      "tags": [
+        "Fire",
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Blastchain Mine Support",
+      "tags": [
+        "Support",
+        "Mine"
+      ]
+    },
+    {
+      "name": "Blazing Salvo",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Blight",
+      "tags": [
+        "Spell",
+        "Chaos",
+        "AoE",
+        "Channelling",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Blight of Atrophy",
+      "tags": [
+        "Spell",
+        "Chaos",
+        "AoE",
+        "Channelling",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Blight of Contagion",
+      "tags": [
+        "Spell",
+        "Chaos",
+        "AoE",
+        "Channelling",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Blind Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Blink Arrow",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Blink Arrow of Bombarding Clones",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Blink Arrow of Prismatic Clones",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Prismatic",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Block Chance Reduction Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Blood and Sand",
+      "tags": [
+        "Spell",
+        "Stance"
+      ]
+    },
+    {
+      "name": "Blood Rage",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Bloodlust Support",
+      "tags": [
+        "Attack",
+        "Physical",
+        "Support",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Bloodthirst Support",
+      "tags": [
+        "Attack",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Bodyswap",
+      "tags": [
+        "Movement",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Travel"
+      ]
+    },
+    {
+      "name": "Bodyswap of Sacrifice",
+      "tags": [
+        "Movement",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Travel",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Bone Offering",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Bonechill Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Boneshatter",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Boneshatter of Carnage",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Boneshatter of Complex Trauma",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Brand Recall",
+      "tags": [
+        "Brand",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Brutality Support",
+      "tags": [
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Burning Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Fire",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Burning Arrow of Vigour",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Fire",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Burning Damage Support",
+      "tags": [
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Cast On Critical Strike Support",
+      "tags": [
+        "Critical",
+        "Support",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Cast on Death Support",
+      "tags": [
+        "Support",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Cast on Melee Kill Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Cast when Damage Taken Support",
+      "tags": [
+        "Support",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Cast when Stunned Support",
+      "tags": [
+        "Support",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Cast while Channelling Support",
+      "tags": [
+        "Support",
+        "Channelling",
+        "Spell",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Caustic Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Duration",
+        "Chaos",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Caustic Arrow of Poison",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Chaos",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Chain Hook",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Movement",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Chain Support",
+      "tags": [
+        "Support",
+        "Chaining",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Chance to Bleed Support",
+      "tags": [
+        "Attack",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Chance to Flee Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Chance to Poison Support",
+      "tags": [
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Charged Dash",
+      "tags": [
+        "Movement",
+        "AoE",
+        "Channelling",
+        "Attack",
+        "Lightning",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Charged Mines Support",
+      "tags": [
+        "Critical",
+        "Support",
+        "Mine"
+      ]
+    },
+    {
+      "name": "Charged Traps Support",
+      "tags": [
+        "Critical",
+        "Support",
+        "Trap"
+      ]
+    },
+    {
+      "name": "Clarity",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Cleave",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Cleave of Rage",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Close Combat Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Cluster Traps Support",
+      "tags": [
+        "Trap",
+        "Support"
+      ]
+    },
+    {
+      "name": "Cobra Lash",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Cold Penetration Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Cold Snap",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Cold Snap of Power",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Cold to Fire Support",
+      "tags": [
+        "Cold",
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Combustion Support",
+      "tags": [
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Concentrated Effect Support",
+      "tags": [
+        "Support",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Conductivity",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Consecrated Path",
+      "tags": [
+        "Fire",
+        "Attack",
+        "AoE",
+        "Movement",
+        "Duration",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Consecrated Path of Endurance",
+      "tags": [
+        "Fire",
+        "Attack",
+        "AoE",
+        "Movement",
+        "Duration",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Contagion",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Contagion of Subsiding",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Contagion of Transference",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Controlled Blaze Support",
+      "tags": [
+        "Fire",
+        "Support",
+        "Melee",
+        "Attack"
+      ]
+    },
+    {
+      "name": "Controlled Destruction Support",
+      "tags": [
+        "Spell",
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Conversion Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Convocation",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Corrupting Cry Support",
+      "tags": [
+        "AoE",
+        "Physical",
+        "Support",
+        "Warcry",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Corrupting Fever",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Crackling Lance",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Crackling Lance of Branching",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Crackling Lance of Disintegration",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Creeping Frost",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Cremation",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration",
+        "Orb",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Cremation of Exhuming",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration",
+        "Projectile",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Cremation of the Volcano",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration",
+        "Projectile",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Critical Strike Affliction Support",
+      "tags": [
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Cruelty Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Crushing Fist",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Duration",
+        "Retaliation"
+      ]
+    },
+    {
+      "name": "Culling Strike Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Cursed Ground Support",
+      "tags": [
+        "AoE",
+        "Duration",
+        "Support",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Cyclone",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Movement",
+        "Channelling",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Cyclone of Tumult",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Movement",
+        "Channelling",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Damage on Full Life Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Dark Pact",
+      "tags": [
+        "Minion",
+        "Spell",
+        "AoE",
+        "Chaining",
+        "Chaos",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Dash",
+      "tags": [
+        "Spell",
+        "Movement",
+        "Travel",
+        "Blink"
+      ]
+    },
+    {
+      "name": "Deadly Ailments Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Decay Support",
+      "tags": [
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Decoy Totem",
+      "tags": [
+        "Totem",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Defiance Banner",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Duration",
+        "Aura",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Desecrate",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Despair",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Chaos",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Destructive Link",
+      "tags": [
+        "Critical",
+        "Spell",
+        "Duration",
+        "Link"
+      ]
+    },
+    {
+      "name": "Determination",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Detonate Dead",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Detonate Dead of Chain Reaction",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Detonate Dead of Scavenging",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Detonate Mines",
+      "tags": [
+        "Mine",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Devour Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Devouring Totem",
+      "tags": [
+        "Totem",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Discharge",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Discharge of Misery",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Discipline",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Divine Ire",
+      "tags": [
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Channelling",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Divine Ire of Disintegration",
+      "tags": [
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Channelling",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Divine Ire of Holy Lightning",
+      "tags": [
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Channelling",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Divine Retribution",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Physical",
+        "Retaliation"
+      ]
+    },
+    {
+      "name": "Dominating Blow",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Dominating Blow of Inspiring",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Double Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Double Strike of Impaling",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Double Strike of Momentum",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Dread Banner",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Duration",
+        "Aura",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Dual Strike",
+      "tags": [
+        "Critical",
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Dual Strike of Ambidexterity",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Earthquake",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Duration",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Earthquake of Amplification",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Duration",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Earthshatter",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Earthshatter of Fragility",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Earthshatter of Prominence",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Efficacy Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Elemental Army Support",
+      "tags": [
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Elemental Damage with Attacks Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Elemental Focus Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Elemental Hit",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "AoE",
+        "Prismatic"
+      ]
+    },
+    {
+      "name": "Elemental Hit of the Spectrum",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "AoE",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Elemental Penetration Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Elemental Proliferation Support",
+      "tags": [
+        "Cold",
+        "Fire",
+        "Lightning",
+        "Support",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Elemental Weakness",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Empower Support",
+      "tags": [
+        "Exceptional",
+        "Support"
+      ]
+    },
+    {
+      "name": "Endurance Charge on Melee Stun Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack"
+      ]
+    },
+    {
+      "name": "Enduring Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Energy Blade",
+      "tags": [
+        "Spell",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Energy Leech Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Enfeeble",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Enhance Support",
+      "tags": [
+        "Exceptional",
+        "Support"
+      ]
+    },
+    {
+      "name": "Enlighten Support",
+      "tags": [
+        "Exceptional",
+        "Support"
+      ]
+    },
+    {
+      "name": "Ensnaring Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Essence Drain",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Chaos",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Essence Drain of Desperation",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Chaos",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Essence Drain of Wickedness",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Chaos",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Eternal Blessing Support",
+      "tags": [
+        "Support",
+        "Aura",
+        "Blessing"
+      ]
+    },
+    {
+      "name": "Ethereal Knives",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Ethereal Knives of Lingering Blades",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Physical",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Ethereal Knives of the Massacre",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Eviscerate",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Retaliation",
+        "Physical",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Expert Retaliation Support",
+      "tags": [
+        "Retaliation",
+        "Support"
+      ]
+    },
+    {
+      "name": "Explosive Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Explosive Concoction",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Explosive Concoction of Destruction",
+      "tags": [
+        "Critical",
+        "Attack",
+        "AoE",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Explosive Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Explosive Trap of Magnitude",
+      "tags": [
+        "Trap",
+        "Spell",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Explosive Trap of Shrapnel",
+      "tags": [
+        "Trap",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Exsanguinate",
+      "tags": [
+        "Spell",
+        "Chaining",
+        "Physical",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Exsanguinate of Transmission",
+      "tags": [
+        "Spell",
+        "Chaining",
+        "Physical",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Eye of Winter",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Eye of Winter of Finality",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Eye of Winter of Transience",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Faster Attacks Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Faster Casting Support",
+      "tags": [
+        "Support",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Faster Projectiles Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Feeding Frenzy Support",
+      "tags": [
+        "Support",
+        "Minion",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Fire Penetration Support",
+      "tags": [
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Fire Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Fire Trap of Blasting",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Fireball",
+      "tags": [
+        "Projectile",
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Firestorm",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Firestorm of Meteors",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Firestorm of Pelting",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Fist of War Support",
+      "tags": [
+        "Slam",
+        "Attack",
+        "Melee",
+        "AoE",
+        "Support"
+      ]
+    },
+    {
+      "name": "Flame Dash",
+      "tags": [
+        "Spell",
+        "Movement",
+        "Duration",
+        "Fire",
+        "Travel",
+        "Blink"
+      ]
+    },
+    {
+      "name": "Flame Dash of Return",
+      "tags": [
+        "Spell",
+        "Movement",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Flame Link",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Link",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Flame Surge",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Flame Surge of Combusting",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Flame Wall",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Flameblast",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Flameblast of Celerity",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Flameblast of Contraction",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Flamethrower Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Flamewood Support",
+      "tags": [
+        "Support",
+        "Totem",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Projectile",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Flammability",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Flesh and Stone",
+      "tags": [
+        "Spell",
+        "Aura",
+        "AoE",
+        "Stance"
+      ]
+    },
+    {
+      "name": "Flesh Offering",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Flicker Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Movement",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Flicker Strike of Power",
+      "tags": [
+        "Critical",
+        "Attack",
+        "Melee",
+        "Strike",
+        "Movement",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Focused Ballista Support",
+      "tags": [
+        "Projectile",
+        "Support",
+        "Totem"
+      ]
+    },
+    {
+      "name": "Forbidden Rite",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Forbidden Rite of Soul Sacrifice",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Fork Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Fortify Support",
+      "tags": [
+        "Attack",
+        "Support",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Freezing Pulse",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frenzy",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Frenzy of Onslaught",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Fresh Meat Support",
+      "tags": [
+        "Critical",
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Frigid Bond Support",
+      "tags": [
+        "Cold",
+        "Support",
+        "Link",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Frost Blades",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Melee",
+        "Strike",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frost Blades of Katabasis",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Cold",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Frost Bomb",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Frost Bomb of Forthcoming",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frost Bomb of Instability",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frost Shield",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frost Wall",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frostbite",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Frostblink",
+      "tags": [
+        "Spell",
+        "Movement",
+        "Duration",
+        "Cold",
+        "Travel",
+        "Blink",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Frostblink of Wintry Blast",
+      "tags": [
+        "Spell",
+        "Movement",
+        "Cold",
+        "Travel",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Frostbolt",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Frozen Legion",
+      "tags": [
+        "Spell",
+        "Cold",
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Frozen Legion of Rallying",
+      "tags": [
+        "Spell",
+        "Cold",
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Galvanic Arrow",
+      "tags": [
+        "Lightning",
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Galvanic Arrow of Energy",
+      "tags": [
+        "Lightning",
+        "Attack",
+        "AoE",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Galvanic Arrow of Surging",
+      "tags": [
+        "Lightning",
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Galvanic Field",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Chaining",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Galvanic Field of Intensity",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Chaining",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Generals Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Generosity Support",
+      "tags": [
+        "Support",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Glacial Cascade",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Glacial Cascade of the Fissure",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Glacial Hammer",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Glacial Hammer of Shattering",
+      "tags": [
+        "Critical",
+        "Attack",
+        "Melee",
+        "Strike",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Glacial Shield Swipe",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Lightning",
+        "Cold",
+        "Retaliation"
+      ]
+    },
+    {
+      "name": "Grace",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Greater Multiple Projectiles Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Greater Volley Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Ground Slam",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Ground Slam of Earthshaking",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Guardians Blessing Support",
+      "tags": [
+        "Support",
+        "Aura",
+        "Blessing",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Haste",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Hatred",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Heavy Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Herald of Agony",
+      "tags": [
+        "Spell",
+        "Herald",
+        "Minion",
+        "Chaos",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Herald of Ash",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Herald",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Herald of Ice",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Herald"
+      ]
+    },
+    {
+      "name": "Herald of Purity",
+      "tags": [
+        "Spell",
+        "Herald",
+        "Minion",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Herald of Thunder",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Herald"
+      ]
+    },
+    {
+      "name": "Hex Bloom Support",
+      "tags": [
+        "Support",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Hexblast",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Hexblast of Contradiction",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Hexblast of Havoc",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Hextouch Support",
+      "tags": [
+        "Support",
+        "Hex",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "High-Impact Mine Support",
+      "tags": [
+        "Mine",
+        "Support",
+        "AoE",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Holy Flame Totem",
+      "tags": [
+        "Totem",
+        "Spell",
+        "Projectile",
+        "Fire",
+        "Channelling",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Holy Flame Totem of Ire",
+      "tags": [
+        "Totem",
+        "Spell",
+        "Projectile",
+        "Fire",
+        "Channelling",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Hydrosphere",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold",
+        "Orb",
+        "Lightning",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Hypothermia Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Ice Bite Support",
+      "tags": [
+        "Cold",
+        "Support"
+      ]
+    },
+    {
+      "name": "Ice Crash",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Cold",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Ice Crash of Cadence",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Cold",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Ice Nova",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Ice Nova of Deep Freeze",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Ice Nova of Frostbolts",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Ice Shot",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Cold",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Ice Shot of Penetration",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Cold",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Ice Spear",
+      "tags": [
+        "Critical",
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Ice Spear of Splitting",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Ice Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Ice Trap of Hollowness",
+      "tags": [
+        "Trap",
+        "Spell",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Icicle Mine",
+      "tags": [
+        "Mine",
+        "Critical",
+        "Spell",
+        "Projectile",
+        "Cold",
+        "Aura",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Icicle Mine of Fanning",
+      "tags": [
+        "Mine",
+        "Critical",
+        "Spell",
+        "Projectile",
+        "Cold",
+        "Aura",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Icicle Mine of Sabotage",
+      "tags": [
+        "Mine",
+        "Critical",
+        "Spell",
+        "Projectile",
+        "Cold",
+        "Aura",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Ignite Proliferation Support",
+      "tags": [
+        "Fire",
+        "Support",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Immolate Support",
+      "tags": [
+        "Fire",
+        "Support"
+      ]
+    },
+    {
+      "name": "Immortal Call",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Guard"
+      ]
+    },
+    {
+      "name": "Impale Support",
+      "tags": [
+        "Attack",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Impending Doom Support",
+      "tags": [
+        "Support",
+        "Hex",
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Incinerate",
+      "tags": [
+        "Spell",
+        "Fire",
+        "Channelling",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Incinerate of Expanse",
+      "tags": [
+        "Spell",
+        "Fire",
+        "Channelling",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Incinerate of Venting",
+      "tags": [
+        "Spell",
+        "Fire",
+        "Channelling",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Increased Area of Effect Support",
+      "tags": [
+        "Support",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Increased Critical Damage Support",
+      "tags": [
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Increased Critical Strikes Support",
+      "tags": [
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Infernal Blow",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Fire",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Infernal Blow of Immolation",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Fire",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Infernal Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Attack",
+        "Trigger",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Infernal Legion Support",
+      "tags": [
+        "Fire",
+        "AoE",
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Infused Channelling Support",
+      "tags": [
+        "Support",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Innervate Support",
+      "tags": [
+        "Lightning",
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Inspiration Support",
+      "tags": [
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Intensify Support",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Intimidating Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Intuitive Link",
+      "tags": [
+        "Trigger",
+        "Spell",
+        "Duration",
+        "Link"
+      ]
+    },
+    {
+      "name": "Iron Grip Support",
+      "tags": [
+        "Projectile",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Iron Will Support",
+      "tags": [
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Item Rarity Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Kinetic Blast",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Kinetic Blast of Clustering",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Kinetic Bolt",
+      "tags": [
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Kinetic Bolt of Fragmentation",
+      "tags": [
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Knockback Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Lacerate",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Physical",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Lacerate of Butchering",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Lacerate of Haemorrhage",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Physical",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Lancing Steel",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Lancing Steel of Spraying",
+      "tags": [
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Leap Slam",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Movement",
+        "Travel",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Leap Slam of Groundbreaking",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Movement",
+        "Travel",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Less Duration Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Lesser Multiple Projectiles Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Life Gain on Hit Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Life Leech Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Lifetap Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Lightning Arrow",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Lightning",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Lightning Arrow of Electrocution",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Lightning",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Lightning Conduit",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Conduit of the Heavens",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Penetration Support",
+      "tags": [
+        "Lightning",
+        "Support"
+      ]
+    },
+    {
+      "name": "Lightning Spire Trap",
+      "tags": [
+        "Trap",
+        "Critical",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Spire Trap of Overloading",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Spire Trap of Zapping",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Strike",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Melee",
+        "Strike",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Strike of Arcing",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Melee",
+        "Strike",
+        "Lightning",
+        "Chaining"
+      ]
+    },
+    {
+      "name": "Lightning Tendrils",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Lightning Tendrils of Eccentricity",
+      "tags": [
+        "Critical",
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Lightning Tendrils of Escalation",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Lightning Trap",
+      "tags": [
+        "Trap",
+        "Critical",
+        "Spell",
+        "Projectile",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Trap of Sparking",
+      "tags": [
+        "Trap",
+        "Critical",
+        "Spell",
+        "Projectile",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Lightning Warp",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Movement",
+        "Lightning",
+        "Travel"
+      ]
+    },
+    {
+      "name": "Locus Mine Support",
+      "tags": [
+        "Bow",
+        "Attack",
+        "Support",
+        "Projectile",
+        "Mine"
+      ]
+    },
+    {
+      "name": "Maim Support",
+      "tags": [
+        "Attack",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Malevolence",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Mana Leech Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Manabond",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Arcane"
+      ]
+    },
+    {
+      "name": "Manaforged Arrows Support",
+      "tags": [
+        "Bow",
+        "Support",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Mark On Hit Support",
+      "tags": [
+        "Support",
+        "Mark",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Meat Shield Support",
+      "tags": [
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Melee Physical Damage Support",
+      "tags": [
+        "Melee",
+        "Physical",
+        "Support",
+        "Attack"
+      ]
+    },
+    {
+      "name": "Melee Splash Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Minefield Support",
+      "tags": [
+        "Support",
+        "Mine"
+      ]
+    },
+    {
+      "name": "Minion Damage Support",
+      "tags": [
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Minion Life Support",
+      "tags": [
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Minion Speed Support",
+      "tags": [
+        "Movement",
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Mirage Archer Support",
+      "tags": [
+        "Bow",
+        "Attack",
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Mirror Arrow",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Mirror Arrow of Bombarding Clones",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Mirror Arrow of Prismatic Clones",
+      "tags": [
+        "Attack",
+        "Minion",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Prismatic",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Molten Shell",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Physical",
+        "Guard"
+      ]
+    },
+    {
+      "name": "Molten Strike",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Molten Strike of the Zenith",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Momentum Support",
+      "tags": [
+        "Attack",
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "More Duration Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Multiple Totems Support",
+      "tags": [
+        "Totem",
+        "Support"
+      ]
+    },
+    {
+      "name": "Multiple Traps Support",
+      "tags": [
+        "Support",
+        "Trap"
+      ]
+    },
+    {
+      "name": "Multistrike Support",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Support"
+      ]
+    },
+    {
+      "name": "Nightblade Support",
+      "tags": [
+        "Attack",
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Orb of Storms",
+      "tags": [
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Chaining",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Overcharge Support",
+      "tags": [
+        "Lightning",
+        "Support"
+      ]
+    },
+    {
+      "name": "Overexertion Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Penance Brand",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Physical",
+        "Lightning",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Penance Brand of Conduction",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Physical",
+        "Lightning",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Penance Brand of Dissipation",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Physical",
+        "Lightning",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Perforate",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Perforate of Bloodshed",
+      "tags": [
+        "Physical",
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Perforate of Duality",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Pestilent Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "AoE",
+        "Duration",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Petrified Blood",
+      "tags": [
+        "Spell"
+      ]
+    },
+    {
+      "name": "Phase Run",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Movement",
+        "Physical",
+        "Travel"
+      ]
+    },
+    {
+      "name": "Physical to Lightning Support",
+      "tags": [
+        "Lightning",
+        "Physical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Pierce Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Pinpoint Support",
+      "tags": [
+        "Support",
+        "Projectile",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Plague Bearer",
+      "tags": [
+        "Spell",
+        "Chaos",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Poachers Mark",
+      "tags": [
+        "Spell",
+        "Curse",
+        "Mark"
+      ]
+    },
+    {
+      "name": "Point Blank Support",
+      "tags": [
+        "Projectile",
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Poisonous Concoction",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Chaos",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Poisonous Concoction of Bouncing",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Chaos",
+        "Projectile",
+        "Chaining"
+      ]
+    },
+    {
+      "name": "Portal",
+      "tags": [
+        "Spell"
+      ]
+    },
+    {
+      "name": "Power Charge On Critical Support",
+      "tags": [
+        "Critical",
+        "Support"
+      ]
+    },
+    {
+      "name": "Power Siphon",
+      "tags": [
+        "Critical",
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Power Siphon of the Archmage",
+      "tags": [
+        "Critical",
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Precision",
+      "tags": [
+        "Aura",
+        "Critical",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Predator Support",
+      "tags": [
+        "Support",
+        "Minion",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Pride",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Aura",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Prismatic Burst Support",
+      "tags": [
+        "Support",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Prismatic",
+        "Trigger"
+      ]
+    },
+    {
+      "name": "Protective Link",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Link"
+      ]
+    },
+    {
+      "name": "Pulverise Support",
+      "tags": [
+        "AoE",
+        "Support",
+        "Melee",
+        "Attack"
+      ]
+    },
+    {
+      "name": "Puncture",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Duration",
+        "Physical",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Puncture of Shanking",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Punishment",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Purifying Flame",
+      "tags": [
+        "Fire",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Purifying Flame of Revelations",
+      "tags": [
+        "Fire",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Purity of Elements",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Purity of Fire",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Purity of Ice",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Purity of Lightning",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Pyroclast Mine",
+      "tags": [
+        "Mine",
+        "Spell",
+        "Projectile",
+        "Fire",
+        "AoE",
+        "Aura",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Pyroclast Mine of Sabotage",
+      "tags": [
+        "Mine",
+        "Spell",
+        "Projectile",
+        "Fire",
+        "AoE",
+        "Aura",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Rage Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack"
+      ]
+    },
+    {
+      "name": "Rage Vortex",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Rage Vortex of Berserking",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Rain of Arrows",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Rain of Arrows of Artillery",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Rain of Arrows of Saturation",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Raise Spectre",
+      "tags": [
+        "Spell",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Raise Spectre of Transience",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Raise Zombie",
+      "tags": [
+        "Spell",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Raise Zombie of Falling",
+      "tags": [
+        "Spell",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Raise Zombie of Slamming",
+      "tags": [
+        "Spell",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Rallying Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Reap",
+      "tags": [
+        "Spell",
+        "Physical",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Reave",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Reave of Refraction",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Rejuvenation Totem",
+      "tags": [
+        "Totem",
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Returning Projectiles Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Righteous Fire",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Righteous Fire of Arcane Devotion",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Rolling Magma",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Projectile",
+        "Chaining"
+      ]
+    },
+    {
+      "name": "Rupture Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Ruthless Support",
+      "tags": [
+        "Slam",
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Sacred Wisps Support",
+      "tags": [
+        "Attack",
+        "Support",
+        "Trigger",
+        "Duration",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Sacrifice Support",
+      "tags": [
+        "Chaos",
+        "Support",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Sadism Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Scorching Ray",
+      "tags": [
+        "Spell",
+        "Fire",
+        "Duration",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Scorching Ray of Immolation",
+      "tags": [
+        "Spell",
+        "Fire",
+        "Duration",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Scourge Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Channelling",
+        "Chaos",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Scourge Arrow of Menace",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Chaos",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Searing Bond",
+      "tags": [
+        "Spell",
+        "Totem",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Second Wind Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Seismic Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Seismic Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Seismic Trap of Swells",
+      "tags": [
+        "Trap",
+        "Spell",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Shattering Steel",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Shattering Steel of Ammunition",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Physical",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Shield Charge",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Movement",
+        "Travel",
+        "Physical",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Shield Crush",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Physical",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Shield Crush of the Chieftain",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Fire",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Shock Nova",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Shockwave Support",
+      "tags": [
+        "Support",
+        "Melee",
+        "Attack",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Shockwave Totem",
+      "tags": [
+        "Totem",
+        "Spell",
+        "AoE",
+        "Physical",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Shrapnel Ballista",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Totem",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Shrapnel Ballista of Steel",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Totem",
+        "Physical",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Siege Ballista",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Totem",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Siege Ballista of Splintering",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Totem",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Sigil of Power",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Arcane"
+      ]
+    },
+    {
+      "name": "Siphoning Trap",
+      "tags": [
+        "Trap",
+        "Spell",
+        "Duration",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Slower Projectiles Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Smite",
+      "tags": [
+        "Lightning",
+        "Attack",
+        "AoE",
+        "Duration",
+        "Melee",
+        "Strike",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Smite of Divine Judgement",
+      "tags": [
+        "Lightning",
+        "Attack",
+        "AoE",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Smoke Mine",
+      "tags": [
+        "Mine",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Movement",
+        "Travel",
+        "Blink"
+      ]
+    },
+    {
+      "name": "Snipe",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Channelling",
+        "Physical",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Snipers Mark",
+      "tags": [
+        "Spell",
+        "Curse",
+        "Mark"
+      ]
+    },
+    {
+      "name": "Soul Link",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Link"
+      ]
+    },
+    {
+      "name": "Soulrend",
+      "tags": [
+        "Chaos",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Soulrend of Reaping",
+      "tags": [
+        "Chaos",
+        "Spell",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Soulrend of the Spiral",
+      "tags": [
+        "Chaos",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Spark",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Spark of the Nova",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Spark of Unpredictability",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Spectral Helix",
+      "tags": [
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Spectral Shield Throw",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Spectral Shield Throw of Shattering",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Spectral Throw",
+      "tags": [
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Spectral Throw of Materialising",
+      "tags": [
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Spell Cascade Support",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Spell Echo Support",
+      "tags": [
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Spell Totem Support",
+      "tags": [
+        "Support",
+        "Spell",
+        "Totem"
+      ]
+    },
+    {
+      "name": "Spellblade Support",
+      "tags": [
+        "Support",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Spellslinger",
+      "tags": [
+        "Trigger",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Spirit Offering",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Duration",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Split Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Split Arrow of Splitting",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Splitting Steel",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Splitting Steel of Ammunition",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Static Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "AoE",
+        "Duration",
+        "Lightning",
+        "Chaining"
+      ]
+    },
+    {
+      "name": "Steelskin",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Guard"
+      ]
+    },
+    {
+      "name": "Storm Brand",
+      "tags": [
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Chaining",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Storm Brand of Indecision",
+      "tags": [
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Chaining",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Storm Burst",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Lightning",
+        "Channelling",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Storm Call",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Storm Rain",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Lightning",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Storm Rain of the Conduit",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Lightning",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Storm Rain of the Fence",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Lightning",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Stormbind",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Channelling",
+        "Lightning",
+        "Duration",
+        "Arcane"
+      ]
+    },
+    {
+      "name": "Stormbind of Teleportation",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Channelling",
+        "Lightning",
+        "Duration",
+        "Arcane",
+        "Movement",
+        "Travel",
+        "Blink"
+      ]
+    },
+    {
+      "name": "Stormblast Mine",
+      "tags": [
+        "Mine",
+        "Spell",
+        "AoE",
+        "Lightning",
+        "Aura",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Stun Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Summon Carrion Golem",
+      "tags": [
+        "Physical",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Carrion Golem of Hordes",
+      "tags": [
+        "Physical",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Carrion Golem of Scavenging",
+      "tags": [
+        "Physical",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Chaos Golem",
+      "tags": [
+        "Chaos",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Chaos Golem of Hordes",
+      "tags": [
+        "Chaos",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Chaos Golem of the Maelstr\u00f6m",
+      "tags": [
+        "Chaos",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Flame Golem",
+      "tags": [
+        "Fire",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Flame Golem of Hordes",
+      "tags": [
+        "Fire",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Flame Golem of the Meteor",
+      "tags": [
+        "Fire",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Holy Relic",
+      "tags": [
+        "Minion",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Summon Holy Relic of Conviction",
+      "tags": [
+        "Minion",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Summon Ice Golem",
+      "tags": [
+        "Critical",
+        "Cold",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Ice Golem of Hordes",
+      "tags": [
+        "Cold",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Ice Golem of Shattering",
+      "tags": [
+        "Cold",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Lightning Golem",
+      "tags": [
+        "Lightning",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Lightning Golem of Hordes",
+      "tags": [
+        "Lightning",
+        "Minion",
+        "Spell",
+        "Golem"
+      ]
+    },
+    {
+      "name": "Summon Phantasm Support",
+      "tags": [
+        "Support",
+        "Minion"
+      ]
+    },
+    {
+      "name": "Summon Raging Spirit",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Summon Raging Spirit of Enormity",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Summon Reaper",
+      "tags": [
+        "Physical",
+        "Minion",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Summon Reaper of Eviscerating",
+      "tags": [
+        "Physical",
+        "Minion",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Summon Reaper of Revenants",
+      "tags": [
+        "Minion",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Summon Skeletons",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Summon Skeletons of Archers",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Summon Skeletons of Mages",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "Prismatic"
+      ]
+    },
+    {
+      "name": "Summon Skitterbots",
+      "tags": [
+        "Trap",
+        "Mine",
+        "Spell",
+        "Minion",
+        "Cold",
+        "Lightning",
+        "AoE",
+        "Aura"
+      ]
+    },
+    {
+      "name": "Summon Stone Golem",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Golem",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Summon Stone Golem of Hordes",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Golem",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Summon Stone Golem of Safeguarding",
+      "tags": [
+        "Minion",
+        "Spell",
+        "Golem",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Sunder",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Sunder of Earthbreaking",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Sweep",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Swift Affliction Support",
+      "tags": [
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Swift Assembly Support",
+      "tags": [
+        "Support",
+        "Trap",
+        "Mine"
+      ]
+    },
+    {
+      "name": "Swiftbrand Support",
+      "tags": [
+        "Brand",
+        "Support"
+      ]
+    },
+    {
+      "name": "Swordstorm",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Retaliation",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Tectonic Slam",
+      "tags": [
+        "Fire",
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Tectonic Slam of Cataclysm",
+      "tags": [
+        "Fire",
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Tempest Shield",
+      "tags": [
+        "Spell",
+        "Lightning",
+        "Chaining"
+      ]
+    },
+    {
+      "name": "Temporal Chains",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Curse",
+        "Hex"
+      ]
+    },
+    {
+      "name": "Temporal Rift",
+      "tags": [
+        "Spell"
+      ]
+    },
+    {
+      "name": "Tornado",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Physical",
+        "AoE",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Tornado of Elemental Turbulence",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Physical",
+        "AoE",
+        "Orb",
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Prismatic"
+      ]
+    },
+    {
+      "name": "Tornado Shot",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Tornado Shot of Cloudburst",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Toxic Rain",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Chaos",
+        "Duration",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Toxic Rain of Sporeburst",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Chaos",
+        "Duration",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Toxic Rain of Withering",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Chaos",
+        "Duration",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Trap and Mine Damage Support",
+      "tags": [
+        "Support",
+        "Trap",
+        "Mine"
+      ]
+    },
+    {
+      "name": "Trap Support",
+      "tags": [
+        "Support",
+        "Trap"
+      ]
+    },
+    {
+      "name": "Trauma Support",
+      "tags": [
+        "Physical",
+        "Support",
+        "Melee",
+        "Attack",
+        "Strike",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Trinity Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Unbound Ailments Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Unearth",
+      "tags": [
+        "Spell",
+        "Projectile",
+        "AoE",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Unleash Support",
+      "tags": [
+        "Spell",
+        "Support"
+      ]
+    },
+    {
+      "name": "Urgent Orders Support",
+      "tags": [
+        "Warcry",
+        "Support"
+      ]
+    },
+    {
+      "name": "Vaal Absolution",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "Physical",
+        "Lightning",
+        "Vaal",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Vaal Animate Weapon",
+      "tags": [
+        "Duration",
+        "Minion",
+        "Spell",
+        "Vaal",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Vaal Arc",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "Chaining",
+        "Lightning",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Arctic Armour",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Cold",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Blade Flurry",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Channelling",
+        "Vaal",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Vaal Blade Vortex",
+      "tags": [
+        "Critical",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Vaal Blight",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "Chaos",
+        "AoE",
+        "Duration",
+        "Nova",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Vaal Breach",
+      "tags": [
+        "Vaal",
+        "Spell"
+      ]
+    },
+    {
+      "name": "Vaal Burning Arrow",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Fire",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Vaal Caustic Arrow",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Duration",
+        "Chaos",
+        "Vaal",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Vaal Clarity",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Cleave",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Vaal",
+        "Duration",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Vaal Cold Snap",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Vaal Cyclone",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "AoE",
+        "Duration",
+        "Melee",
+        "Movement",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Vaal Detonate Dead",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Vaal Discipline",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Domination",
+      "tags": [
+        "Spell",
+        "Minion",
+        "Duration",
+        "Vaal",
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Vaal Double Strike",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "Melee",
+        "Strike",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Vaal Earthquake",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "AoE",
+        "Duration",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Vaal Fireball",
+      "tags": [
+        "Vaal",
+        "Projectile",
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Vaal Firestorm",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Flameblast",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Vaal Flicker Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Movement",
+        "Vaal",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Glacial Hammer",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "Melee",
+        "Strike",
+        "Duration",
+        "AoE",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Vaal Grace",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Ground Slam",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "AoE",
+        "Slam",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Vaal Haste",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Ice Nova",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Cold",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Vaal Ice Shot",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Cold",
+        "Vaal",
+        "Duration",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Vaal Impurity of Fire",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Vaal Impurity of Ice",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Cold"
+      ]
+    },
+    {
+      "name": "Vaal Impurity of Lightning",
+      "tags": [
+        "Aura",
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Vaal Lightning Arrow",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Lightning",
+        "Vaal",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Vaal Lightning Strike",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "Melee",
+        "Strike",
+        "Duration",
+        "Lightning",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Vaal Lightning Trap",
+      "tags": [
+        "Trap",
+        "Critical",
+        "Vaal",
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Vaal Molten Shell",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Fire",
+        "Physical",
+        "Guard"
+      ]
+    },
+    {
+      "name": "Vaal Molten Strike",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Fire",
+        "Chaining",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Power Siphon",
+      "tags": [
+        "Critical",
+        "Vaal",
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Vaal Rain of Arrows",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Bow"
+      ]
+    },
+    {
+      "name": "Vaal Reap",
+      "tags": [
+        "Spell",
+        "Physical",
+        "AoE",
+        "Duration",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Reave",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "AoE",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Vaal Rejuvenation Totem",
+      "tags": [
+        "Totem",
+        "Aura",
+        "Spell",
+        "AoE",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Righteous Fire",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Smite",
+      "tags": [
+        "Lightning",
+        "Attack",
+        "AoE",
+        "Duration",
+        "Melee",
+        "Strike",
+        "Aura",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Spark",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "Projectile",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Vaal Spectral Throw",
+      "tags": [
+        "Vaal",
+        "Attack",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Vaal Storm Call",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Vaal Summon Skeletons",
+      "tags": [
+        "Vaal",
+        "Spell",
+        "Minion",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vaal Venom Gyre",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Chaos",
+        "Duration",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vaal Volcanic Fissure",
+      "tags": [
+        "Melee",
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Slam",
+        "Fire",
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Vampiric Link",
+      "tags": [
+        "Spell",
+        "Duration",
+        "Link"
+      ]
+    },
+    {
+      "name": "Vengeful Cry",
+      "tags": [
+        "Warcry",
+        "AoE",
+        "Duration",
+        "Retaliation"
+      ]
+    },
+    {
+      "name": "Venom Gyre",
+      "tags": [
+        "Attack",
+        "Projectile",
+        "Chaos",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vicious Projectiles Support",
+      "tags": [
+        "Projectile",
+        "Attack",
+        "Physical",
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Vigilant Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    {
+      "name": "Vile Toxins Support",
+      "tags": [
+        "Support"
+      ]
+    },
+    {
+      "name": "Viper Strike",
+      "tags": [
+        "Attack",
+        "Duration",
+        "Melee",
+        "Strike",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Viper Strike of the Mamba",
+      "tags": [
+        "Attack",
+        "Duration",
+        "Melee",
+        "Strike",
+        "Chaos"
+      ]
+    },
+    {
+      "name": "Vitality",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE"
+      ]
+    },
+    {
+      "name": "Void Manipulation Support",
+      "tags": [
+        "Chaos",
+        "Support"
+      ]
+    },
+    {
+      "name": "Void Sphere",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical",
+        "Chaos",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Void Sphere of Rending",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical",
+        "Chaos",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Volatile Dead",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Volatile Dead of Confinement",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Volatile Dead of Seething",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Volatility Support",
+      "tags": [
+        "Attack",
+        "Support"
+      ]
+    },
+    {
+      "name": "Volcanic Fissure",
+      "tags": [
+        "Melee",
+        "Attack",
+        "Projectile",
+        "AoE",
+        "Slam",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Volcanic Fissure of Snaking",
+      "tags": [
+        "Melee",
+        "Attack",
+        "AoE",
+        "Slam",
+        "Fire"
+      ]
+    },
+    {
+      "name": "Volley Support",
+      "tags": [
+        "Support",
+        "Projectile"
+      ]
+    },
+    {
+      "name": "Voltaxic Burst",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Chaos",
+        "Lightning",
+        "Nova",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Vortex",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Duration",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Vortex of Projection",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Duration",
+        "Nova"
+      ]
+    },
+    {
+      "name": "Vulnerability",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Curse",
+        "Physical",
+        "Hex"
+      ]
+    },
+    {
+      "name": "War Banner",
+      "tags": [
+        "AoE",
+        "Spell",
+        "Duration",
+        "Aura",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Warlords Mark",
+      "tags": [
+        "Spell",
+        "Curse",
+        "Mark"
+      ]
+    },
+    {
+      "name": "Wave of Conviction",
+      "tags": [
+        "Fire",
+        "Lightning",
+        "Spell",
+        "AoE",
+        "Duration",
+        "Physical"
+      ]
+    },
+    {
+      "name": "Whirling Blades",
+      "tags": [
+        "Attack",
+        "Movement",
+        "Travel",
+        "Melee"
+      ]
+    },
+    {
+      "name": "Wild Strike",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Projectile",
+        "AoE",
+        "Chaining",
+        "Prismatic"
+      ]
+    },
+    {
+      "name": "Wild Strike of Extremes",
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike",
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Projectile",
+        "AoE",
+        "Chaining",
+        "Prismatic"
+      ]
+    },
+    {
+      "name": "Winter Orb",
+      "tags": [
+        "Cold",
+        "Spell",
+        "Channelling",
+        "AoE",
+        "Duration",
+        "Projectile",
+        "Orb"
+      ]
+    },
+    {
+      "name": "Wintertide Brand",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Cold",
+        "Duration",
+        "Brand"
+      ]
+    },
+    {
+      "name": "Wither",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Duration",
+        "Chaos",
+        "Channelling"
+      ]
+    },
+    {
+      "name": "Withering Step",
+      "tags": [
+        "Travel",
+        "AoE",
+        "Chaos",
+        "Movement",
+        "Blink",
+        "Spell",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Withering Touch Support",
+      "tags": [
+        "Chaos",
+        "Physical",
+        "Attack",
+        "Support",
+        "Duration"
+      ]
+    },
+    {
+      "name": "Wrath",
+      "tags": [
+        "Aura",
+        "Spell",
+        "AoE",
+        "Lightning"
+      ]
+    },
+    {
+      "name": "Zealotry",
+      "tags": [
+        "Aura",
+        "Critical",
+        "Spell",
+        "AoE"
+      ]
+    }
+  ],
+  "total_count": 719
+}
