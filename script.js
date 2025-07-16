@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', loadGemsData);
 // Load gems data from JSON file
 async function loadGemsData() {
     try {
-        const response = await fetch('gems_cleaned.json');
+        // Add cache-busting parameter to prevent browser caching
+        const response = await fetch(`gems_cleaned.json?v=${Date.now()}`);
         gemsData = await response.json();
         
         // Update gem count

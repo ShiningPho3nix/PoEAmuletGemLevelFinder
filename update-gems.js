@@ -64,58 +64,55 @@ function makeRequest(url) {
 async function fetchGemsFromAPI() {
     log('🔍 Querying PoE Wiki API for skill gems...', colors.blue);
     
-    // Try different query approaches
-    const queries = [
-        // Try skill_gems table first
-        {
-            tables: 'skill_gems',
-            fields: '_pageName,gem_tags',
-            where: 'is_awakened_support_gem=0',
-            name: 'skill_gems table'
-        },
-        // Try items table with different class filter
-        {
-            tables: 'items',
-            fields: 'name,tags,class',
-            where: 'class LIKE "%Skill Gem%"',
-            name: 'items table (LIKE)'
-        },
-        // Try items table without class filter
-        {
-            tables: 'items',
-            fields: 'name,tags,class',
-            where: 'tags LIKE "%skill%"',
-            name: 'items table (tags)'
-        }
-    ];
+    // Use working skill_gems query with pagination
+    const baseParams = {
+        action: 'cargoquery',
+        tables: 'skill_gems',
+        fields: '_pageName=Page,gem_tags__full=gem tags',
+        limit: '500',
+        format: 'json'
+    };
     
-    for (const query of queries) {
+    let allResults = [];
+    let offset = 0;
+    let hasMoreResults = true;
+    
+    while (hasMoreResults) {
         const params = new URLSearchParams({
-            action: 'cargoquery',
-            tables: query.tables,
-            fields: query.fields,
-            where: query.where,
-            limit: '1000',
-            format: 'json'
+            ...baseParams,
+            offset: offset.toString()
         });
         
         const url = `${POE_WIKI_API_BASE}?${params}`;
-        log(`📡 Trying ${query.name}: ${url}`, colors.yellow);
+        log(`📡 Fetching skill_gems batch (offset ${offset}): ${url}`, colors.yellow);
         
         try {
             const data = await makeRequest(url);
             log('✅ API request successful', colors.green);
             
-            // Check if we got results
             if (data.cargoquery && data.cargoquery.length > 0) {
-                log(`📊 Found ${data.cargoquery.length} results with ${query.name}`, colors.green);
-                return data;
+                log(`📊 Found ${data.cargoquery.length} results in this batch`, colors.green);
+                allResults = allResults.concat(data.cargoquery);
+                
+                // Check if we got less than the limit, meaning we're done
+                if (data.cargoquery.length < 500) {
+                    hasMoreResults = false;
+                } else {
+                    offset += 500;
+                }
             } else {
-                log(`⚠️ No results from ${query.name}`, colors.yellow);
+                log(`⚠️ No results in batch at offset ${offset}`, colors.yellow);
+                hasMoreResults = false;
             }
         } catch (error) {
-            log(`❌ ${query.name} failed: ${error.message}`, colors.red);
+            log(`❌ Batch at offset ${offset} failed: ${error.message}`, colors.red);
+            hasMoreResults = false;
         }
+    }
+    
+    if (allResults.length > 0) {
+        log(`📊 Total skill_gems fetched: ${allResults.length}`, colors.green);
+        return { cargoquery: allResults };
     }
     
     throw new Error('All API queries failed to return data');
@@ -139,14 +136,22 @@ function transformAPIData(apiResponse) {
         // Handle different data structures
         let name, tags;
         
-        if (title.name) {
-            // Items table structure
+        if (title.Page && title['gem tags']) {
+            // Skill_gems table structure with aliased field names
+            name = title.Page;
+            tags = title['gem tags'];
+        } else if (title._pageName && title['gem_tags__full']) {
+            // Skill_gems table structure with raw field names
+            name = title._pageName;
+            tags = title['gem_tags__full'];
+        } else if (title.name && title.gem_tags) {
+            // Items table with gem_tags field
+            name = title.name;
+            tags = title.gem_tags;
+        } else if (title.name) {
+            // Items table structure (fallback)
             name = title.name;
             tags = title.tags || '';
-        } else if (title._pageName) {
-            // Skill_gems table structure
-            name = title._pageName;
-            tags = title.gem_tags || '';
         } else {
             skippedCount++;
             return;
@@ -157,8 +162,15 @@ function transformAPIData(apiResponse) {
             return;
         }
         
-        // Parse tags (comma-separated string to array)
-        const tagArray = tags.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0);
+        // Parse tags (handle both comma-separated and bullet-separated formats)
+        let tagArray;
+        if (tags.includes('•')) {
+            // PoE Wiki format: "Spell • Minion • Duration • Physical • Lightning • AoE"
+            tagArray = tags.split('•').map(tag => tag.trim()).filter(tag => tag.length > 0);
+        } else {
+            // Fallback: comma-separated format
+            tagArray = tags.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0);
+        }
         
         // Skip support gems
         if (tagArray.includes('Support')) {
