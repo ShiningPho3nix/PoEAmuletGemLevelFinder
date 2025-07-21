@@ -13,8 +13,6 @@ const selectedGemTags = document.getElementById('selected-gem-tags');
 const resultsSection = document.getElementById('results-section');
 const modList = document.getElementById('mod-list');
 const gemCount = document.getElementById('gem-count');
-const copyBtn = document.getElementById('copy-btn');
-const exportBtn = document.getElementById('export-btn');
 
 // Load gems data on page load
 document.addEventListener('DOMContentLoaded', loadGemsData);
@@ -47,9 +45,6 @@ function initializeSearch() {
     gemSearch.addEventListener('focus', handleSearch);
     gemSearch.addEventListener('blur', hideDropdown);
     
-    // Export buttons
-    copyBtn.addEventListener('click', copyToClipboard);
-    exportBtn.addEventListener('click', exportAsText);
 }
 
 // Handle search input
@@ -109,6 +104,42 @@ function hideDropdown() {
     }, 200);
 }
 
+// Get CSS class for modifier color based on damage type
+function getModifierClass(modifierText) {
+    const textLower = modifierText.toLowerCase();
+    
+    if (textLower.includes('physical')) return 'mod-physical';
+    if (textLower.includes('fire')) return 'mod-fire';
+    if (textLower.includes('cold')) return 'mod-cold';
+    if (textLower.includes('lightning')) return 'mod-lightning';
+    if (textLower.includes('chaos')) return 'mod-chaos';
+    if (textLower.includes('all skill gems')) return 'mod-all';
+    
+    return '';
+}
+
+// Get CSS class for tag color
+function getTagClass(tag) {
+    const tagLower = tag.toLowerCase();
+    
+    // Map tag names to CSS classes
+    const tagColorMap = {
+        'spell': 'caster',
+        'attack': 'attack', 
+        'physical': 'physical',
+        'movement': 'movement',
+        'critical': 'critical',
+        'fire': 'fire',
+        'cold': 'cold',
+        'lightning': 'lightning',
+        'chaos': 'chaos',
+        'life': 'life',
+        'guard': 'defence'
+    };
+    
+    return tagColorMap[tagLower] || '';
+}
+
 // Select a gem
 function selectGem(gem) {
     selectedGem = gem;
@@ -118,7 +149,7 @@ function selectGem(gem) {
     // Update gem info display
     selectedGemName.textContent = gem.name;
     selectedGemTags.innerHTML = gem.tags.map(tag => 
-        `<span class="tag">${tag}</span>`
+        `<span class="tag ${getTagClass(tag)}">${tag}</span>`
     ).join('');
     
     gemInfo.style.display = 'block';
@@ -453,7 +484,24 @@ function displayGroupedCombinations(groupedCombinations) {
         
         const levelHeader = document.createElement('h4');
         levelHeader.className = 'level-header';
-        levelHeader.textContent = `+${level} Level${level > 1 ? 's' : ''}`;
+        
+        // Create header text span
+        const headerText = document.createElement('span');
+        headerText.textContent = `+${level} Level${level > 1 ? 's' : ''}`;
+        
+        // Create collapse icon
+        const collapseIcon = document.createElement('span');
+        collapseIcon.className = 'collapse-icon';
+        collapseIcon.textContent = '▼';
+        
+        levelHeader.appendChild(headerText);
+        levelHeader.appendChild(collapseIcon);
+        
+        // Add click handler for collapsing
+        levelHeader.addEventListener('click', () => {
+            levelGroup.classList.toggle('collapsed');
+        });
+        
         levelGroup.appendChild(levelHeader);
         
         // Create combinations container
@@ -585,18 +633,17 @@ function createCombinationItem(combination, type) {
         }
         
         const modDetail = document.createElement('span');
-        modDetail.className = 'modifier-detail';
         
+        let modText = mod.text;
         // Show multiplied effect based on type
         if (type === 'focused' || type === 'reflectingMist') {
-            const doubledText = mod.text.replace(/\+(\d+)/, (match, num) => `+${num * 2}`);
-            modDetail.textContent = doubledText;
+            modText = mod.text.replace(/\+(\d+)/, (match, num) => `+${num * 2}`);
         } else if (type === 'focusedReflecting') {
-            const quadrupledText = mod.text.replace(/\+(\d+)/, (match, num) => `+${num * 4}`);
-            modDetail.textContent = quadrupledText;
-        } else {
-            modDetail.textContent = mod.text;
+            modText = mod.text.replace(/\+(\d+)/, (match, num) => `+${num * 4}`);
         }
+        
+        modDetail.textContent = modText;
+        modDetail.className = `modifier-detail ${getModifierClass(modText)}`;
         
         modifierDetails.appendChild(modDetail);
     });
@@ -608,145 +655,3 @@ function createCombinationItem(combination, type) {
 
 // Filter functions removed - no longer needed for amulet-specific modifiers
 
-// Copy modifiers to clipboard
-async function copyToClipboard() {
-    if (!selectedGem) return;
-    
-    const levelGroups = document.querySelectorAll('.level-group');
-    let text = `Path of Exile Gem Level Modifiers for: ${selectedGem.name}\n\n`;
-    
-    Array.from(levelGroups).forEach(group => {
-        const levelHeader = group.querySelector('.level-header').textContent;
-        text += `${levelHeader}:\n`;
-        
-        // Regular combinations
-        const regularCombinations = group.querySelectorAll('.combination-item.regular');
-        Array.from(regularCombinations).forEach(combination => {
-            const combinationText = combination.querySelector('.combination-text').textContent;
-            const modifierDetails = combination.querySelector('.modifier-details').textContent;
-            text += `  ${combinationText}: ${modifierDetails}\n`;
-        });
-        
-        // Focused amulet combinations
-        const focusedHeader = group.querySelector('.focused-amulet-header');
-        if (focusedHeader) {
-            text += `  Focused Amulet (doubles effects):\n`;
-            const focusedCombinations = group.querySelectorAll('.combination-item.focused');
-            Array.from(focusedCombinations).forEach(combination => {
-                const combinationText = combination.querySelector('.combination-text').textContent;
-                const modifierDetails = combination.querySelector('.modifier-details').textContent;
-                text += `    ${combinationText}: ${modifierDetails}\n`;
-            });
-        }
-        
-        // Reflecting mist combinations
-        const reflectingHeader = group.querySelector('.reflecting-mist-header');
-        if (reflectingHeader) {
-            text += `  Reflecting Mist (doubles effects):\n`;
-            const reflectingCombinations = group.querySelectorAll('.combination-item.reflectingMist');
-            Array.from(reflectingCombinations).forEach(combination => {
-                const combinationText = combination.querySelector('.combination-text').textContent;
-                const modifierDetails = combination.querySelector('.modifier-details').textContent;
-                text += `    ${combinationText}: ${modifierDetails}\n`;
-            });
-        }
-        
-        // Focused amulet + reflecting mist combinations
-        const focusedReflectingHeader = group.querySelector('.focused-reflecting-header');
-        if (focusedReflectingHeader) {
-            text += `  Focused Amulet + Reflecting Mist (4x effects):\n`;
-            const focusedReflectingCombinations = group.querySelectorAll('.combination-item.focusedReflecting');
-            Array.from(focusedReflectingCombinations).forEach(combination => {
-                const combinationText = combination.querySelector('.combination-text').textContent;
-                const modifierDetails = combination.querySelector('.modifier-details').textContent;
-                text += `    ${combinationText}: ${modifierDetails}\n`;
-            });
-        }
-        
-        text += '\n';
-    });
-    
-    try {
-        await navigator.clipboard.writeText(text);
-        
-        // Show feedback
-        const originalText = copyBtn.textContent;
-        copyBtn.textContent = 'Copied!';
-        setTimeout(() => {
-            copyBtn.textContent = originalText;
-        }, 2000);
-    } catch (error) {
-        console.error('Failed to copy to clipboard:', error);
-    }
-}
-
-// Export as text file
-function exportAsText() {
-    if (!selectedGem) return;
-    
-    const levelGroups = document.querySelectorAll('.level-group');
-    let text = `Path of Exile Gem Level Modifiers for: ${selectedGem.name}\n\n`;
-    
-    Array.from(levelGroups).forEach(group => {
-        const levelHeader = group.querySelector('.level-header').textContent;
-        text += `${levelHeader}:\n`;
-        
-        // Regular combinations
-        const regularCombinations = group.querySelectorAll('.combination-item.regular');
-        Array.from(regularCombinations).forEach(combination => {
-            const combinationText = combination.querySelector('.combination-text').textContent;
-            const modifierDetails = combination.querySelector('.modifier-details').textContent;
-            text += `  ${combinationText}: ${modifierDetails}\n`;
-        });
-        
-        // Focused amulet combinations
-        const focusedHeader = group.querySelector('.focused-amulet-header');
-        if (focusedHeader) {
-            text += `  Focused Amulet (doubles effects):\n`;
-            const focusedCombinations = group.querySelectorAll('.combination-item.focused');
-            Array.from(focusedCombinations).forEach(combination => {
-                const combinationText = combination.querySelector('.combination-text').textContent;
-                const modifierDetails = combination.querySelector('.modifier-details').textContent;
-                text += `    ${combinationText}: ${modifierDetails}\n`;
-            });
-        }
-        
-        // Reflecting mist combinations
-        const reflectingHeader = group.querySelector('.reflecting-mist-header');
-        if (reflectingHeader) {
-            text += `  Reflecting Mist (doubles effects):\n`;
-            const reflectingCombinations = group.querySelectorAll('.combination-item.reflectingMist');
-            Array.from(reflectingCombinations).forEach(combination => {
-                const combinationText = combination.querySelector('.combination-text').textContent;
-                const modifierDetails = combination.querySelector('.modifier-details').textContent;
-                text += `    ${combinationText}: ${modifierDetails}\n`;
-            });
-        }
-        
-        // Focused amulet + reflecting mist combinations
-        const focusedReflectingHeader = group.querySelector('.focused-reflecting-header');
-        if (focusedReflectingHeader) {
-            text += `  Focused Amulet + Reflecting Mist (4x effects):\n`;
-            const focusedReflectingCombinations = group.querySelectorAll('.combination-item.focusedReflecting');
-            Array.from(focusedReflectingCombinations).forEach(combination => {
-                const combinationText = combination.querySelector('.combination-text').textContent;
-                const modifierDetails = combination.querySelector('.modifier-details').textContent;
-                text += `    ${combinationText}: ${modifierDetails}\n`;
-            });
-        }
-        
-        text += '\n';
-    });
-    
-    const blob = new Blob([text], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `${selectedGem.name.replace(/\s+/g, '_')}_modifiers.txt`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    
-    URL.revokeObjectURL(url);
-}

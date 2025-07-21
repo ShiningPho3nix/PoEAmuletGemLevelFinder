@@ -160,12 +160,69 @@ main {
 }
 
 .tag {
-    background: #3498db;
-    color: #fff;
+    color: #000;
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.85em;
     font-weight: 600;
+}
+
+/* Tag color classes */
+.tag.caster { background-color: #b3f8fe; }
+.tag.attack { background-color: #da814d; }
+.tag.physical { background-color: #c79d93; }
+.tag.speed { background-color: #cfeea5; }
+.tag.movement { background-color: #cfeea5; }
+.tag.critical { background-color: #b2a7d6; }
+.tag.fire { background-color: #ff9a77; }
+.tag.cold { background-color: #93d8ff; }
+.tag.lightning { background-color: #f8cb76; }
+.tag.chaos { background-color: #d8a7d3; }
+.tag.life { background-color: #c96e6e; }
+.tag.defence { background-color: #a88f67; }
+
+/* Default tag color for unmapped tags */
+.tag:not([class*="caster"]):not([class*="attack"]):not([class*="physical"]):not([class*="speed"]):not([class*="movement"]):not([class*="critical"]):not([class*="fire"]):not([class*="cold"]):not([class*="lightning"]):not([class*="chaos"]):not([class*="life"]):not([class*="defence"]) {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Modifier color classes based on damage type */
+.modifier-detail.mod-physical { 
+    background-color: #c79d93; 
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 12px;
+}
+.modifier-detail.mod-fire { 
+    background-color: #ff9a77; 
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 12px;
+}
+.modifier-detail.mod-cold { 
+    background-color: #93d8ff; 
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 12px;
+}
+.modifier-detail.mod-lightning { 
+    background-color: #f8cb76; 
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 12px;
+}
+.modifier-detail.mod-chaos { 
+    background-color: #d8a7d3; 
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 12px;
+}
+.modifier-detail.mod-all { 
+    background-color: #b3f8fe; 
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 12px;
 }
 
 /* Results section */
@@ -323,10 +380,39 @@ main {
     font-size: 1.2em;
     font-weight: 600;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.level-header:hover {
+    background: linear-gradient(135deg, #3498db, #2674a4);
+}
+
+.level-header .collapse-icon {
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.level-group.collapsed .collapse-icon {
+    transform: rotate(-90deg);
 }
 
 .combinations-container {
     padding: 15px;
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.level-group.collapsed .combinations-container {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .combination-item {
