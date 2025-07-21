@@ -1,4 +1,4 @@
-# PoE Gem Level Finder - Data Update Utility
+# PoE Amulet Gem Level Finder - Data Update Utility
 
 ## Overview
 This utility script fetches the latest skill gem data from the PoE Wiki API and updates the `gems_cleaned.json` file used by the web application.
@@ -15,6 +15,7 @@ This utility script fetches the latest skill gem data from the PoE Wiki API and 
 chmod +x update-gems.js
 
 # Run the script
+cd scripts
 node update-gems.js
 ```
 
@@ -23,7 +24,7 @@ node update-gems.js
 2. **Transforms data** to match the application's JSON structure
 3. **Filters out support gems** (keeps only active skill gems)
 4. **Sorts gems alphabetically** by name
-5. **Saves updated data** to `gems_cleaned.json`
+5. **Saves updated data** to `data/gems_cleaned.json`
 
 ## Current Status ⚠️
 

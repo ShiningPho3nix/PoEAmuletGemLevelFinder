@@ -10,7 +10,11 @@
         "Physical",
         "Lightning",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Absolution of Inspiring",
@@ -21,7 +25,11 @@
         "Physical",
         "Lightning",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Alchemist's Mark",
@@ -33,7 +41,11 @@
         "Duration",
         "Fire",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ambush",
@@ -43,7 +55,11 @@
         "Movement",
         "Duration",
         "Travel"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ancestral Cry",
@@ -51,7 +67,11 @@
         "Warcry",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Ancestral Protector",
@@ -60,7 +80,11 @@
         "Totem",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Ancestral Warchief",
@@ -70,7 +94,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Anger",
@@ -79,14 +107,22 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Animate Guardian",
       "tags": [
         "Spell",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Animate Guardian of Smiting",
@@ -94,7 +130,11 @@
         "Spell",
         "Minion",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Animate Weapon",
@@ -103,7 +143,11 @@
         "Minion",
         "Spell",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Animate Weapon of Ranged Arms",
@@ -112,7 +156,11 @@
         "Minion",
         "Spell",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Animate Weapon of Self Reflection",
@@ -120,7 +168,11 @@
         "Duration",
         "Minion",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Arc",
@@ -128,7 +180,11 @@
         "Spell",
         "Chaining",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Arc of Oscillating",
@@ -136,14 +192,22 @@
         "Spell",
         "Chaining",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Arc of Surging",
       "tags": [
         "Spell",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Arcane Cloak",
@@ -153,7 +217,11 @@
         "Guard",
         "Lightning",
         "Arcane"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Arcanist Brand",
@@ -162,7 +230,11 @@
         "Spell",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Arctic Armour",
@@ -170,7 +242,11 @@
         "Spell",
         "Duration",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Armageddon Brand",
@@ -180,7 +256,11 @@
         "Fire",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Armageddon Brand of Recall",
@@ -190,7 +270,11 @@
         "Fire",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Armageddon Brand of Volatility",
@@ -200,7 +284,11 @@
         "Fire",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Artillery Ballista",
@@ -211,7 +299,11 @@
         "Fire",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Artillery Ballista of Cross Strafe",
@@ -222,7 +314,11 @@
         "Fire",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Artillery Ballista of Focus Fire",
@@ -233,7 +329,11 @@
         "Fire",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Assassin's Mark",
@@ -242,7 +342,11 @@
         "Spell",
         "Curse",
         "Mark"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Autoexertion",
@@ -250,14 +354,22 @@
         "Warcry",
         "Trigger",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Automation",
       "tags": [
         "Trigger",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ball Lightning",
@@ -266,7 +378,11 @@
         "Projectile",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ball Lightning of Orbiting",
@@ -275,7 +391,11 @@
         "Projectile",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ball Lightning of Static",
@@ -284,7 +404,11 @@
         "AoE",
         "Lightning",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Bane",
@@ -295,7 +419,11 @@
         "AoE",
         "Duration",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Bane of Condemnation",
@@ -306,7 +434,11 @@
         "AoE",
         "Duration",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Barrage",
@@ -314,7 +446,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Barrage of Volley Fire",
@@ -322,7 +458,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Battlemage's Cry",
@@ -332,7 +472,11 @@
         "Trigger",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Bear Trap",
@@ -341,7 +485,11 @@
         "Spell",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bear Trap of Skewers",
@@ -350,13 +498,21 @@
         "Spell",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Berserk",
       "tags": [
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Blade Blast",
@@ -364,7 +520,11 @@
         "Spell",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Blast of Dagger Detonation",
@@ -373,7 +533,11 @@
         "AoE",
         "Physical",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Blast of Unloading",
@@ -382,7 +546,11 @@
         "AoE",
         "Physical",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Flurry",
@@ -391,7 +559,11 @@
         "AoE",
         "Channelling",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Flurry of Incision",
@@ -401,7 +573,11 @@
         "AoE",
         "Channelling",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Trap",
@@ -409,7 +585,11 @@
         "Trap",
         "Attack",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Trap of Greatswords",
@@ -418,7 +598,11 @@
         "Attack",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Trap of Laceration",
@@ -427,7 +611,11 @@
         "Attack",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Vortex",
@@ -436,7 +624,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blade Vortex of the Scythe",
@@ -445,7 +637,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bladefall",
@@ -454,7 +650,11 @@
         "AoE",
         "Physical",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bladefall of Impaling",
@@ -463,7 +663,11 @@
         "Spell",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bladefall of Trarthus",
@@ -473,7 +677,11 @@
         "Physical",
         "Arcane",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bladefall of Volleys",
@@ -482,7 +690,11 @@
         "Spell",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bladestorm",
@@ -491,7 +703,11 @@
         "AoE",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Bladestorm of Uncertainty",
@@ -500,7 +716,11 @@
         "AoE",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Blast Rain",
@@ -510,7 +730,11 @@
         "AoE",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blast Rain of Trarthus",
@@ -521,7 +745,11 @@
         "Projectile",
         "Duration",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blazing Salvo",
@@ -530,7 +758,11 @@
         "AoE",
         "Fire",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Blight",
@@ -540,7 +772,11 @@
         "AoE",
         "Channelling",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Blight of Atrophy",
@@ -550,7 +786,11 @@
         "AoE",
         "Channelling",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Blight of Contagion",
@@ -560,7 +800,11 @@
         "AoE",
         "Channelling",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Blink Arrow",
@@ -571,7 +815,11 @@
         "Movement",
         "Travel",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blink Arrow of Bombarding Clones",
@@ -582,7 +830,11 @@
         "Movement",
         "Travel",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blink Arrow of Prismatic Clones",
@@ -594,14 +846,22 @@
         "Travel",
         "Prismatic",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Blood and Sand",
       "tags": [
         "Spell",
         "Stance"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Blood Rage",
@@ -609,7 +869,11 @@
         "Spell",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Bodyswap",
@@ -619,7 +883,11 @@
         "AoE",
         "Fire",
         "Travel"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Bodyswap of Sacrifice",
@@ -630,7 +898,11 @@
         "Fire",
         "Travel",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Bone Offering",
@@ -638,7 +910,11 @@
         "Minion",
         "Spell",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Boneshatter",
@@ -649,7 +925,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Boneshatter of Carnage",
@@ -658,7 +938,11 @@
         "Melee",
         "Strike",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Boneshatter of Complex Trauma",
@@ -669,14 +953,22 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Brand Recall",
       "tags": [
         "Brand",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Burning Arrow",
@@ -685,7 +977,11 @@
         "Projectile",
         "Fire",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Burning Arrow of Vigour",
@@ -694,7 +990,11 @@
         "Projectile",
         "Fire",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Caustic Arrow",
@@ -705,7 +1005,11 @@
         "Duration",
         "Chaos",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Caustic Arrow of Poison",
@@ -715,7 +1019,11 @@
         "AoE",
         "Chaos",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Chain Hook",
@@ -724,7 +1032,11 @@
         "AoE",
         "Movement",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Chain Hook of Trarthus",
@@ -732,7 +1044,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Charged Dash",
@@ -743,7 +1059,11 @@
         "Attack",
         "Lightning",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Clarity",
@@ -751,7 +1071,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 75,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Cleave",
@@ -759,7 +1083,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Cleave of Rage",
@@ -767,7 +1095,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Cobra Lash",
@@ -775,7 +1107,11 @@
         "Attack",
         "Projectile",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Cold Snap",
@@ -784,7 +1120,11 @@
         "AoE",
         "Cold",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Cold Snap of Power",
@@ -793,7 +1133,11 @@
         "Spell",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Conductivity",
@@ -804,7 +1148,11 @@
         "Lightning",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Consecrated Path",
@@ -816,7 +1164,11 @@
         "Duration",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Consecrated Path of Endurance",
@@ -828,7 +1180,11 @@
         "Duration",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Contagion",
@@ -837,7 +1193,11 @@
         "AoE",
         "Duration",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Contagion of Subsiding",
@@ -846,7 +1206,11 @@
         "AoE",
         "Duration",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Contagion of Transference",
@@ -855,7 +1219,11 @@
         "AoE",
         "Duration",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Conversion Trap",
@@ -863,7 +1231,11 @@
         "Trap",
         "Spell",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Convocation",
@@ -871,7 +1243,11 @@
         "Spell",
         "Duration",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Convocation (legacy)",
@@ -879,7 +1255,11 @@
         "Minion",
         "Spell",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Corrupting Fever",
@@ -887,7 +1267,11 @@
         "Spell",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Crackling Lance",
@@ -895,7 +1279,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Crackling Lance of Branching",
@@ -903,7 +1291,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Crackling Lance of Disintegration",
@@ -911,7 +1303,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Creeping Frost",
@@ -921,7 +1317,11 @@
         "Duration",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Cremation",
@@ -932,7 +1332,11 @@
         "Duration",
         "Projectile",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Cremation of Exhuming",
@@ -943,7 +1347,11 @@
         "Duration",
         "Projectile",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Cremation of the Volcano",
@@ -954,7 +1362,11 @@
         "Duration",
         "Projectile",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Crushing Fist",
@@ -964,7 +1376,11 @@
         "AoE",
         "Retaliation",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Cyclone",
@@ -974,7 +1390,11 @@
         "Movement",
         "Channelling",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Cyclone of Tumult",
@@ -984,7 +1404,11 @@
         "Movement",
         "Channelling",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Dark Pact",
@@ -995,7 +1419,11 @@
         "Chaining",
         "Chaos",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Dark Pact of Trarthus",
@@ -1004,7 +1432,11 @@
         "AoE",
         "Chaos",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Dash",
@@ -1013,7 +1445,11 @@
         "Movement",
         "Travel",
         "Blink"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Decoy Totem",
@@ -1021,7 +1457,11 @@
         "Totem",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Defiance Banner",
@@ -1030,7 +1470,11 @@
         "Spell",
         "Duration",
         "Aura"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Desecrate",
@@ -1039,7 +1483,11 @@
         "AoE",
         "Duration",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Despair",
@@ -1050,7 +1498,11 @@
         "Chaos",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Destructive Link",
@@ -1059,7 +1511,11 @@
         "Spell",
         "Duration",
         "Link"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Determination",
@@ -1068,7 +1524,11 @@
         "Spell",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Detonate Dead",
@@ -1076,7 +1536,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Detonate Dead of Chain Reaction",
@@ -1084,7 +1548,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Detonate Dead of Scavenging",
@@ -1092,21 +1560,33 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Detonate Mines",
       "tags": [
         "Mine",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 33,
+      "strength_percent": 33,
+      "intelligence_percent": 34,
+      "primary_attribute": "none"
     },
     {
       "name": "Devouring Totem",
       "tags": [
         "Totem",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Discharge",
@@ -1117,7 +1597,11 @@
         "Cold",
         "Lightning",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Discharge of Misery",
@@ -1128,7 +1612,11 @@
         "Cold",
         "Lightning",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Discipline",
@@ -1136,7 +1624,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Divine Ire",
@@ -1146,7 +1638,11 @@
         "AoE",
         "Channelling",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Divine Ire of Disintegration",
@@ -1156,7 +1652,11 @@
         "AoE",
         "Channelling",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Divine Ire of Holy Lightning",
@@ -1166,7 +1666,11 @@
         "AoE",
         "Channelling",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Divine Retribution",
@@ -1176,7 +1680,11 @@
         "Lightning",
         "Physical",
         "Retaliation"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Dominating Blow",
@@ -1186,7 +1694,11 @@
         "Duration",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Dominating Blow of Inspiring",
@@ -1196,7 +1708,11 @@
         "Duration",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Double Strike",
@@ -1205,7 +1721,11 @@
         "Melee",
         "Strike",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Double Strike of Impaling",
@@ -1214,7 +1734,11 @@
         "Melee",
         "Strike",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Double Strike of Momentum",
@@ -1222,7 +1746,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Dread Banner",
@@ -1231,7 +1759,11 @@
         "Spell",
         "Duration",
         "Aura"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Dual Strike",
@@ -1240,7 +1772,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Dual Strike of Ambidexterity",
@@ -1248,7 +1784,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Earthquake",
@@ -1258,7 +1798,11 @@
         "Duration",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Earthquake of Amplification",
@@ -1268,7 +1812,11 @@
         "Duration",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Earthshatter",
@@ -1278,7 +1826,11 @@
         "Slam",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Earthshatter of Fragility",
@@ -1288,7 +1840,11 @@
         "Slam",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Earthshatter of Prominence",
@@ -1298,7 +1854,11 @@
         "Slam",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Elemental Hit",
@@ -1311,7 +1871,11 @@
         "Lightning",
         "AoE",
         "Prismatic"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Elemental Hit of the Spectrum",
@@ -1323,7 +1887,11 @@
         "Lightning",
         "AoE",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Elemental Weakness",
@@ -1333,7 +1901,11 @@
         "Duration",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Enduring Cry",
@@ -1341,14 +1913,22 @@
         "Warcry",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Energy Blade",
       "tags": [
         "Spell",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Enfeeble",
@@ -1358,7 +1938,11 @@
         "Duration",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ensnaring Arrow",
@@ -1367,7 +1951,11 @@
         "Projectile",
         "AoE",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Essence Drain",
@@ -1377,7 +1965,11 @@
         "Duration",
         "Chaos",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Essence Drain of Desperation",
@@ -1387,7 +1979,11 @@
         "Duration",
         "Chaos",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Essence Drain of Wickedness",
@@ -1397,7 +1993,11 @@
         "Duration",
         "Chaos",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ethereal Knives",
@@ -1405,7 +2005,11 @@
         "Spell",
         "Projectile",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ethereal Knives of Lingering Blades",
@@ -1414,7 +2018,11 @@
         "Projectile",
         "Physical",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ethereal Knives of the Massacre",
@@ -1422,7 +2030,11 @@
         "Spell",
         "Projectile",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Eviscerate",
@@ -1432,7 +2044,11 @@
         "Retaliation",
         "Physical",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Explosive Arrow",
@@ -1443,7 +2059,11 @@
         "Duration",
         "Fire",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Explosive Concoction",
@@ -1454,7 +2074,11 @@
         "Cold",
         "Lightning",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Explosive Concoction of Destruction",
@@ -1466,7 +2090,11 @@
         "Cold",
         "Lightning",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Explosive Trap",
@@ -1476,7 +2104,11 @@
         "AoE",
         "Fire",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Explosive Trap of Magnitude",
@@ -1485,7 +2117,11 @@
         "Spell",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Explosive Trap of Shrapnel",
@@ -1495,7 +2131,11 @@
         "AoE",
         "Fire",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Exsanguinate",
@@ -1504,7 +2144,11 @@
         "Chaining",
         "Physical",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Exsanguinate of Transmission",
@@ -1513,7 +2157,11 @@
         "Chaining",
         "Physical",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Eye of Winter",
@@ -1521,7 +2169,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Eye of Winter of Finality",
@@ -1529,7 +2181,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Eye of Winter of Transience",
@@ -1537,7 +2193,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Fire Trap",
@@ -1547,7 +2207,11 @@
         "Duration",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Fire Trap of Blasting",
@@ -1557,7 +2221,11 @@
         "Duration",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Fireball",
@@ -1566,7 +2234,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Firestorm",
@@ -1575,7 +2247,11 @@
         "AoE",
         "Duration",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Firestorm of Meteors",
@@ -1583,7 +2259,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Firestorm of Pelting",
@@ -1592,7 +2272,11 @@
         "AoE",
         "Duration",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flame Dash",
@@ -1603,7 +2287,11 @@
         "Fire",
         "Travel",
         "Blink"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flame Dash of Return",
@@ -1612,7 +2300,11 @@
         "Movement",
         "Duration",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flame Link",
@@ -1621,7 +2313,11 @@
         "Duration",
         "Link",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Flame Surge",
@@ -1630,7 +2326,11 @@
         "AoE",
         "Fire",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flame Surge of Combusting",
@@ -1639,7 +2339,11 @@
         "AoE",
         "Fire",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flame Wall",
@@ -1648,7 +2352,11 @@
         "AoE",
         "Duration",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flameblast",
@@ -1657,7 +2365,11 @@
         "AoE",
         "Fire",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flameblast of Celerity",
@@ -1666,7 +2378,11 @@
         "AoE",
         "Fire",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flameblast of Contraction",
@@ -1675,7 +2391,11 @@
         "AoE",
         "Fire",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flamethrower Trap",
@@ -1685,7 +2405,11 @@
         "Duration",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Flammability",
@@ -1696,7 +2420,11 @@
         "Fire",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flesh and Stone",
@@ -1706,7 +2434,11 @@
         "AoE",
         "Stance",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Flesh Offering",
@@ -1714,7 +2446,11 @@
         "Minion",
         "Spell",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Flicker Strike",
@@ -1724,7 +2460,11 @@
         "Strike",
         "Movement",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Flicker Strike of Power",
@@ -1735,7 +2475,11 @@
         "Strike",
         "Movement",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Forbidden Rite",
@@ -1744,7 +2488,11 @@
         "AoE",
         "Chaos",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Forbidden Rite of Soul Sacrifice",
@@ -1753,7 +2501,11 @@
         "AoE",
         "Chaos",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Freezing Pulse",
@@ -1761,7 +2513,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frenzy",
@@ -1769,7 +2525,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Frenzy of Onslaught",
@@ -1777,7 +2537,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Frost Blades",
@@ -1787,7 +2551,11 @@
         "Melee",
         "Strike",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Frost Blades of Katabasis",
@@ -1798,7 +2566,11 @@
         "Cold",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Frost Bomb",
@@ -1808,7 +2580,11 @@
         "Duration",
         "Cold",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frost Bomb of Forthcoming",
@@ -1817,7 +2593,11 @@
         "AoE",
         "Duration",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frost Bomb of Instability",
@@ -1826,7 +2606,11 @@
         "AoE",
         "Duration",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frost Shield",
@@ -1836,7 +2620,11 @@
         "AoE",
         "Duration",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frost Wall",
@@ -1844,7 +2632,11 @@
         "Spell",
         "Duration",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frostbite",
@@ -1855,7 +2647,11 @@
         "Cold",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frostblink",
@@ -1867,7 +2663,11 @@
         "Travel",
         "Blink",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frostblink of Wintry Blast",
@@ -1877,7 +2677,11 @@
         "Cold",
         "Travel",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frostbolt",
@@ -1885,7 +2689,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Frozen Legion",
@@ -1895,7 +2703,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Frozen Legion of Rallying",
@@ -1905,7 +2717,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Galvanic Arrow",
@@ -1915,7 +2731,11 @@
         "Projectile",
         "AoE",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Galvanic Arrow of Energy",
@@ -1924,7 +2744,11 @@
         "Attack",
         "AoE",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Galvanic Arrow of Surging",
@@ -1934,7 +2758,11 @@
         "Projectile",
         "AoE",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Galvanic Field",
@@ -1945,7 +2773,11 @@
         "Lightning",
         "Chaining",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Galvanic Field of Intensity",
@@ -1956,7 +2788,11 @@
         "Lightning",
         "Chaining",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "General's Cry",
@@ -1964,7 +2800,11 @@
         "Warcry",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Glacial Cascade",
@@ -1973,7 +2813,11 @@
         "AoE",
         "Cold",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Glacial Cascade of the Fissure",
@@ -1982,7 +2826,11 @@
         "AoE",
         "Cold",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Glacial Hammer",
@@ -1991,7 +2839,11 @@
         "Melee",
         "Strike",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Glacial Hammer of Shattering",
@@ -2001,7 +2853,11 @@
         "Melee",
         "Strike",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Glacial Shield Swipe",
@@ -2012,7 +2868,11 @@
         "Physical",
         "Retaliation",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Grace",
@@ -2020,7 +2880,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ground Slam",
@@ -2029,7 +2893,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Ground Slam of Earthshaking",
@@ -2038,7 +2906,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Haste",
@@ -2046,7 +2918,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Hatred",
@@ -2055,7 +2931,11 @@
         "Spell",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Heavy Strike",
@@ -2063,7 +2943,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Heavy Strike of Trarthus",
@@ -2071,7 +2955,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Herald of Agony",
@@ -2081,7 +2969,11 @@
         "Minion",
         "Chaos",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Herald of Ash",
@@ -2091,7 +2983,11 @@
         "Fire",
         "Herald",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Herald of Ice",
@@ -2100,7 +2996,11 @@
         "AoE",
         "Cold",
         "Herald"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Herald of Purity",
@@ -2110,7 +3010,11 @@
         "Minion",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Herald of Thunder",
@@ -2120,7 +3024,11 @@
         "Duration",
         "Lightning",
         "Herald"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Hexblast",
@@ -2129,7 +3037,11 @@
         "AoE",
         "Chaos",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Hexblast of Contradiction",
@@ -2138,7 +3050,11 @@
         "AoE",
         "Chaos",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Hexblast of Havoc",
@@ -2147,7 +3063,11 @@
         "AoE",
         "Chaos",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Holy Flame Totem",
@@ -2158,7 +3078,11 @@
         "Fire",
         "Channelling",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Holy Flame Totem of Ire",
@@ -2169,7 +3093,11 @@
         "Fire",
         "Channelling",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Hydrosphere",
@@ -2181,7 +3109,11 @@
         "Orb",
         "Lightning",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ice Crash",
@@ -2191,7 +3123,11 @@
         "Cold",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Ice Crash of Cadence",
@@ -2201,7 +3137,11 @@
         "Cold",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Ice Nova",
@@ -2210,7 +3150,11 @@
         "AoE",
         "Cold",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ice Nova of Deep Freeze",
@@ -2219,7 +3163,11 @@
         "AoE",
         "Cold",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ice Nova of Frostbolts",
@@ -2228,7 +3176,11 @@
         "AoE",
         "Cold",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ice Shot",
@@ -2238,7 +3190,11 @@
         "AoE",
         "Cold",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ice Shot of Penetration",
@@ -2248,7 +3204,11 @@
         "AoE",
         "Cold",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ice Spear",
@@ -2257,7 +3217,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ice Spear of Splitting",
@@ -2265,7 +3229,11 @@
         "Spell",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Ice Trap",
@@ -2274,7 +3242,11 @@
         "Spell",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Ice Trap of Hollowness",
@@ -2283,7 +3255,11 @@
         "Spell",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Icicle Mine",
@@ -2295,7 +3271,11 @@
         "Cold",
         "Aura",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Icicle Mine of Fanning",
@@ -2307,7 +3287,11 @@
         "Cold",
         "Aura",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Icicle Mine of Sabotage",
@@ -2319,7 +3303,11 @@
         "Cold",
         "Aura",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Immortal Call",
@@ -2327,7 +3315,11 @@
         "Spell",
         "Duration",
         "Guard"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Incinerate",
@@ -2336,7 +3328,11 @@
         "Fire",
         "Channelling",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Incinerate of Expanse",
@@ -2345,7 +3341,11 @@
         "Fire",
         "Channelling",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Incinerate of Venting",
@@ -2354,7 +3354,11 @@
         "Fire",
         "Channelling",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Infernal Blow",
@@ -2365,7 +3369,11 @@
         "Strike",
         "Fire",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Infernal Blow of Immolation",
@@ -2376,7 +3384,11 @@
         "Strike",
         "Fire",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Infernal Cry",
@@ -2388,7 +3400,11 @@
         "Attack",
         "Trigger",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Intimidating Cry",
@@ -2397,7 +3413,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Intuitive Link",
@@ -2406,7 +3426,11 @@
         "Spell",
         "Duration",
         "Link"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Kinetic Blast",
@@ -2414,7 +3438,11 @@
         "Attack",
         "Projectile",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Kinetic Blast of Clustering",
@@ -2423,21 +3451,33 @@
         "Projectile",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Kinetic Bolt",
       "tags": [
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Kinetic Bolt of Fragmentation",
       "tags": [
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lacerate",
@@ -2446,7 +3486,11 @@
         "AoE",
         "Physical",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lacerate of Butchering",
@@ -2454,7 +3498,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lacerate of Haemorrhage",
@@ -2463,7 +3511,11 @@
         "AoE",
         "Physical",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lancing Steel",
@@ -2471,14 +3523,22 @@
         "Attack",
         "Projectile",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lancing Steel of Spraying",
       "tags": [
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Leap Slam",
@@ -2489,7 +3549,11 @@
         "Travel",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Leap Slam of Groundbreaking",
@@ -2500,7 +3564,11 @@
         "Travel",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Lightning Arrow",
@@ -2510,7 +3578,11 @@
         "Projectile",
         "Lightning",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lightning Arrow of Electrocution",
@@ -2519,7 +3591,11 @@
         "Projectile",
         "Lightning",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lightning Conduit",
@@ -2527,7 +3603,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Conduit of the Heavens",
@@ -2535,7 +3615,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Spire Trap",
@@ -2546,7 +3630,11 @@
         "Duration",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Spire Trap of Overloading",
@@ -2556,7 +3644,11 @@
         "Duration",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Spire Trap of Zapping",
@@ -2566,7 +3658,11 @@
         "Duration",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Strike",
@@ -2576,7 +3672,11 @@
         "Melee",
         "Strike",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lightning Strike of Arcing",
@@ -2587,7 +3687,11 @@
         "Strike",
         "Lightning",
         "Chaining"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Lightning Tendrils",
@@ -2597,7 +3701,11 @@
         "AoE",
         "Lightning",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Tendrils of Eccentricity",
@@ -2607,7 +3715,11 @@
         "AoE",
         "Lightning",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Tendrils of Escalation",
@@ -2616,7 +3728,11 @@
         "AoE",
         "Lightning",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Trap",
@@ -2626,7 +3742,11 @@
         "Spell",
         "Projectile",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Trap of Sparking",
@@ -2636,7 +3756,11 @@
         "Spell",
         "Projectile",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Lightning Warp",
@@ -2647,7 +3771,11 @@
         "Movement",
         "Lightning",
         "Travel"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Malevolence",
@@ -2655,7 +3783,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Manabond",
@@ -2664,7 +3796,11 @@
         "AoE",
         "Lightning",
         "Arcane"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Mirror Arrow",
@@ -2675,7 +3811,11 @@
         "Movement",
         "Travel",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Mirror Arrow of Bombarding Clones",
@@ -2686,7 +3826,11 @@
         "Movement",
         "Travel",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Mirror Arrow of Prismatic Clones",
@@ -2698,7 +3842,11 @@
         "Travel",
         "Prismatic",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Molten Shell",
@@ -2709,7 +3857,11 @@
         "Fire",
         "Physical",
         "Guard"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Molten Strike",
@@ -2720,7 +3872,11 @@
         "Melee",
         "Strike",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Molten Strike of the Zenith",
@@ -2731,7 +3887,11 @@
         "Melee",
         "Strike",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Orb of Storms",
@@ -2741,7 +3901,11 @@
         "AoE",
         "Chaining",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Penance Brand",
@@ -2752,7 +3916,11 @@
         "Lightning",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Penance Brand of Conduction",
@@ -2763,7 +3931,11 @@
         "Lightning",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Penance Brand of Dissipation",
@@ -2774,7 +3946,11 @@
         "Lightning",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Perforate",
@@ -2783,7 +3959,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Perforate of Bloodshed",
@@ -2793,7 +3973,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Perforate of Duality",
@@ -2802,7 +3986,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Pestilent Strike",
@@ -2813,13 +4001,21 @@
         "AoE",
         "Duration",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Petrified Blood",
       "tags": [
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Phase Run",
@@ -2829,7 +4025,11 @@
         "Movement",
         "Physical",
         "Travel"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Plague Bearer",
@@ -2837,7 +4037,11 @@
         "Spell",
         "Chaos",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Poacher's Mark",
@@ -2846,7 +4050,11 @@
         "Spell",
         "Curse",
         "Mark"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Poisonous Concoction",
@@ -2855,7 +4063,11 @@
         "AoE",
         "Chaos",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Poisonous Concoction of Bouncing",
@@ -2865,13 +4077,21 @@
         "Chaos",
         "Projectile",
         "Chaining"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Portal (skill gem)",
       "tags": [
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 33,
+      "strength_percent": 33,
+      "intelligence_percent": 34,
+      "primary_attribute": "none"
     },
     {
       "name": "Power Siphon",
@@ -2879,7 +4099,11 @@
         "Critical",
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Power Siphon of the Archmage",
@@ -2887,7 +4111,11 @@
         "Attack",
         "Projectile",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Precision",
@@ -2896,7 +4124,11 @@
         "Critical",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 75,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Pride",
@@ -2905,7 +4137,11 @@
         "AoE",
         "Aura",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Protective Link",
@@ -2913,7 +4149,11 @@
         "Spell",
         "Duration",
         "Link"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Puncture",
@@ -2923,7 +4163,11 @@
         "Duration",
         "Physical",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Puncture of Shanking",
@@ -2933,7 +4177,11 @@
         "Strike",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Punishment",
@@ -2943,7 +4191,11 @@
         "Duration",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Purifying Flame",
@@ -2953,7 +4205,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Purifying Flame of Revelations",
@@ -2963,7 +4219,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Purity of Elements",
@@ -2971,7 +4231,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Purity of Fire",
@@ -2980,7 +4244,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Purity of Ice",
@@ -2989,7 +4257,11 @@
         "Spell",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Purity of Lightning",
@@ -2998,7 +4270,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Pyroclast Mine",
@@ -3010,7 +4286,11 @@
         "AoE",
         "Aura",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Pyroclast Mine of Sabotage",
@@ -3022,7 +4302,11 @@
         "AoE",
         "Aura",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Quickstep",
@@ -3031,7 +4315,11 @@
         "Movement",
         "Travel",
         "Blink"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "none"
     },
     {
       "name": "Rage Vortex",
@@ -3040,7 +4328,11 @@
         "AoE",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Rage Vortex of Berserking",
@@ -3048,7 +4340,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Rain of Arrows",
@@ -3057,7 +4353,11 @@
         "AoE",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Rain of Arrows of Artillery",
@@ -3066,7 +4366,11 @@
         "AoE",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Rain of Arrows of Saturation",
@@ -3075,14 +4379,22 @@
         "AoE",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Raise Spectre",
       "tags": [
         "Spell",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Raise Spectre of Transience",
@@ -3090,28 +4402,44 @@
         "Spell",
         "Minion",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Raise Zombie",
       "tags": [
         "Spell",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Raise Zombie of Falling",
       "tags": [
         "Spell",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Raise Zombie of Slamming",
       "tags": [
         "Spell",
         "Minion"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Rallying Cry",
@@ -3119,7 +4447,11 @@
         "Warcry",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Reap",
@@ -3128,7 +4460,11 @@
         "Physical",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Reave",
@@ -3136,7 +4472,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Reave of Refraction",
@@ -3144,7 +4484,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Rejuvenation Totem",
@@ -3153,7 +4497,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Righteous Fire",
@@ -3161,7 +4509,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Righteous Fire of Arcane Devotion",
@@ -3169,7 +4521,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Rolling Magma",
@@ -3179,7 +4535,11 @@
         "Fire",
         "Projectile",
         "Chaining"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Scorching Ray",
@@ -3188,7 +4548,11 @@
         "Fire",
         "Duration",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Scorching Ray of Immolation",
@@ -3197,7 +4561,11 @@
         "Fire",
         "Duration",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Scourge Arrow",
@@ -3207,7 +4575,11 @@
         "Channelling",
         "Chaos",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Scourge Arrow of Menace",
@@ -3216,7 +4588,11 @@
         "Projectile",
         "Chaos",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Searing Bond",
@@ -3224,7 +4600,11 @@
         "Spell",
         "Totem",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Seismic Cry",
@@ -3232,7 +4612,11 @@
         "Warcry",
         "AoE",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Seismic Trap",
@@ -3242,7 +4626,11 @@
         "Duration",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Seismic Trap of Swells",
@@ -3251,7 +4639,11 @@
         "Spell",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Shattering Steel",
@@ -3260,7 +4652,11 @@
         "Projectile",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Shattering Steel of Ammunition",
@@ -3270,7 +4666,11 @@
         "AoE",
         "Physical",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Shield Charge",
@@ -3281,7 +4681,11 @@
         "Travel",
         "Physical",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Shield Crush",
@@ -3290,7 +4694,11 @@
         "AoE",
         "Physical",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Shield Crush of the Chieftain",
@@ -3299,7 +4707,11 @@
         "AoE",
         "Fire",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Shock Nova",
@@ -3308,7 +4720,11 @@
         "AoE",
         "Lightning",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Shockwave Totem",
@@ -3318,7 +4734,11 @@
         "AoE",
         "Physical",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Shrapnel Ballista",
@@ -3327,7 +4747,11 @@
         "Projectile",
         "Totem",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Shrapnel Ballista of Steel",
@@ -3337,7 +4761,11 @@
         "Totem",
         "Physical",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Siege Ballista",
@@ -3346,7 +4774,11 @@
         "Projectile",
         "Totem",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Siege Ballista of Splintering",
@@ -3355,7 +4787,11 @@
         "Projectile",
         "Totem",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Siege Ballista of Trarthus",
@@ -3364,7 +4800,11 @@
         "Projectile",
         "Totem",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Sigil of Power",
@@ -3374,7 +4814,11 @@
         "Duration",
         "Lightning",
         "Arcane"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Siphoning Trap",
@@ -3384,7 +4828,11 @@
         "Duration",
         "AoE",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Smite",
@@ -3396,7 +4844,11 @@
         "Melee",
         "Strike",
         "Aura"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Smite of Divine Judgement",
@@ -3406,7 +4858,11 @@
         "AoE",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Smoke Mine",
@@ -3418,7 +4874,11 @@
         "Movement",
         "Travel",
         "Blink"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Snipe",
@@ -3428,7 +4888,11 @@
         "Channelling",
         "Physical",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Sniper's Mark",
@@ -3436,7 +4900,11 @@
         "Spell",
         "Curse",
         "Mark"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Soul Link",
@@ -3444,7 +4912,11 @@
         "Spell",
         "Duration",
         "Link"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Soulrend",
@@ -3454,7 +4926,11 @@
         "AoE",
         "Duration",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Soulrend of Reaping",
@@ -3462,7 +4938,11 @@
         "Chaos",
         "Spell",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Soulrend of the Spiral",
@@ -3472,7 +4952,11 @@
         "AoE",
         "Duration",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Spark",
@@ -3481,7 +4965,11 @@
         "Projectile",
         "Duration",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Spark of the Nova",
@@ -3490,7 +4978,11 @@
         "Projectile",
         "Duration",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Spark of Unpredictability",
@@ -3499,14 +4991,22 @@
         "Projectile",
         "Duration",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Spectral Helix",
       "tags": [
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Helix of Trarthus",
@@ -3514,7 +5014,11 @@
         "Trap",
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Shield Throw",
@@ -3522,7 +5026,11 @@
         "Attack",
         "Projectile",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Shield Throw of Shattering",
@@ -3530,7 +5038,11 @@
         "Attack",
         "Projectile",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Shield Throw of Trarthus",
@@ -3538,21 +5050,33 @@
         "Attack",
         "Projectile",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Throw",
       "tags": [
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Throw of Materialising",
       "tags": [
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spectral Throw of Trarthus",
@@ -3560,14 +5084,22 @@
         "Trap",
         "Attack",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Spellslinger",
       "tags": [
         "Trigger",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Spirit Offering",
@@ -3575,7 +5107,11 @@
         "Minion",
         "Spell",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Split Arrow",
@@ -3583,7 +5119,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Split Arrow of Splitting",
@@ -3591,7 +5131,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Splitting Steel",
@@ -3600,7 +5144,11 @@
         "Projectile",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Splitting Steel of Ammunition",
@@ -3609,7 +5157,11 @@
         "Projectile",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Static Strike",
@@ -3621,7 +5173,11 @@
         "Duration",
         "Lightning",
         "Chaining"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Steelskin",
@@ -3629,7 +5185,11 @@
         "Spell",
         "Duration",
         "Guard"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Storm Brand",
@@ -3640,7 +5200,11 @@
         "Chaining",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Storm Brand of Indecision",
@@ -3651,7 +5215,11 @@
         "Chaining",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Storm Burst",
@@ -3662,7 +5230,11 @@
         "Channelling",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Storm Call",
@@ -3671,7 +5243,11 @@
         "AoE",
         "Duration",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Storm Call of Trarthus",
@@ -3680,7 +5256,11 @@
         "AoE",
         "Duration",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Storm Rain",
@@ -3690,7 +5270,11 @@
         "Lightning",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Storm Rain of the Conduit",
@@ -3700,7 +5284,11 @@
         "Lightning",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Storm Rain of the Fence",
@@ -3710,7 +5298,11 @@
         "Lightning",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Stormbind",
@@ -3721,7 +5313,11 @@
         "Lightning",
         "Duration",
         "Arcane"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Stormbind of Teleportation",
@@ -3735,7 +5331,11 @@
         "Movement",
         "Travel",
         "Blink"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Stormblast Mine",
@@ -3746,7 +5346,11 @@
         "Lightning",
         "Aura",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Carrion Golem",
@@ -3755,7 +5359,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Carrion Golem of Hordes",
@@ -3764,7 +5372,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Carrion Golem of Scavenging",
@@ -3773,7 +5385,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Chaos Golem",
@@ -3782,7 +5398,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Chaos Golem of Hordes",
@@ -3791,7 +5411,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Chaos Golem of the Maelström",
@@ -3800,7 +5424,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Flame Golem",
@@ -3809,7 +5437,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Summon Flame Golem of Hordes",
@@ -3818,7 +5450,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Summon Flame Golem of the Meteor",
@@ -3827,21 +5463,33 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Summon Holy Relic",
       "tags": [
         "Minion",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Holy Relic of Conviction",
       "tags": [
         "Minion",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Ice Golem",
@@ -3851,7 +5499,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Summon Ice Golem of Hordes",
@@ -3860,7 +5512,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Summon Ice Golem of Shattering",
@@ -3869,7 +5525,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Summon Lightning Golem",
@@ -3878,7 +5538,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Lightning Golem of Hordes",
@@ -3887,7 +5551,11 @@
         "Minion",
         "Spell",
         "Golem"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Raging Spirit",
@@ -3896,7 +5564,11 @@
         "Minion",
         "Duration",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Raging Spirit of Enormity",
@@ -3905,7 +5577,11 @@
         "Minion",
         "Duration",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Reaper",
@@ -3913,7 +5589,11 @@
         "Physical",
         "Minion",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Reaper of Eviscerating",
@@ -3921,14 +5601,22 @@
         "Physical",
         "Minion",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Reaper of Revenants",
       "tags": [
         "Minion",
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Skeletons",
@@ -3936,7 +5624,11 @@
         "Spell",
         "Minion",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Skeletons of Archers",
@@ -3944,7 +5636,11 @@
         "Spell",
         "Minion",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Skeletons of Mages",
@@ -3953,7 +5649,11 @@
         "Minion",
         "Duration",
         "Prismatic"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Skitterbots",
@@ -3966,7 +5666,11 @@
         "Lightning",
         "AoE",
         "Aura"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Summon Stone Golem",
@@ -3975,7 +5679,11 @@
         "Spell",
         "Golem",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Summon Stone Golem of Hordes",
@@ -3984,7 +5692,11 @@
         "Spell",
         "Golem",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Summon Stone Golem of Safeguarding",
@@ -3993,7 +5705,11 @@
         "Spell",
         "Golem",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Sunder",
@@ -4002,7 +5718,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Sunder of Earthbreaking",
@@ -4011,7 +5731,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Sunder of Trarthus",
@@ -4020,7 +5744,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Sweep",
@@ -4028,7 +5756,11 @@
         "Attack",
         "AoE",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Swordstorm",
@@ -4037,7 +5769,11 @@
         "AoE",
         "Retaliation",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Tectonic Slam",
@@ -4047,7 +5783,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Tectonic Slam of Cataclysm",
@@ -4057,7 +5797,11 @@
         "AoE",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Tempest Shield",
@@ -4065,7 +5809,11 @@
         "Spell",
         "Lightning",
         "Chaining"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Temporal Chains",
@@ -4075,13 +5823,21 @@
         "Duration",
         "Curse",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Temporal Rift",
       "tags": [
         "Spell"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Tornado",
@@ -4091,7 +5847,11 @@
         "Physical",
         "AoE",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Tornado of Elemental Turbulence",
@@ -4105,7 +5865,11 @@
         "Cold",
         "Lightning",
         "Prismatic"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Tornado Shot",
@@ -4113,7 +5877,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Tornado Shot of Cloudburst",
@@ -4121,7 +5889,11 @@
         "Attack",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Toxic Rain",
@@ -4132,7 +5904,11 @@
         "Duration",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Toxic Rain of Sporeburst",
@@ -4143,7 +5919,11 @@
         "Duration",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Toxic Rain of Withering",
@@ -4154,7 +5934,11 @@
         "Duration",
         "Projectile",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Unearth",
@@ -4163,7 +5947,11 @@
         "Projectile",
         "AoE",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "User:Vinifera7/test04",
@@ -4172,7 +5960,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Absolution",
@@ -4184,7 +5976,11 @@
         "Lightning",
         "Vaal",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Ancestral Warchief",
@@ -4195,7 +5991,11 @@
         "Vaal",
         "Melee",
         "Slam"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Animate Weapon",
@@ -4205,7 +6005,11 @@
         "Spell",
         "Vaal",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Arc",
@@ -4215,7 +6019,11 @@
         "Vaal",
         "Lightning",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Arctic Armour",
@@ -4224,7 +6032,11 @@
         "Duration",
         "Cold",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Blade Flurry",
@@ -4234,7 +6046,11 @@
         "Channelling",
         "Vaal",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Blade Vortex",
@@ -4245,7 +6061,11 @@
         "Duration",
         "Vaal",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Blight",
@@ -4257,14 +6077,22 @@
         "Vaal",
         "Nova",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Breach",
       "tags": [
         "Spell",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 33,
+      "strength_percent": 33,
+      "intelligence_percent": 34,
+      "primary_attribute": "none"
     },
     {
       "name": "Vaal Burning Arrow",
@@ -4275,7 +6103,11 @@
         "Vaal",
         "Fire",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Caustic Arrow",
@@ -4287,7 +6119,11 @@
         "Chaos",
         "Vaal",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Clarity",
@@ -4297,7 +6133,11 @@
         "AoE",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 75,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Cleave",
@@ -4307,7 +6147,11 @@
         "Vaal",
         "Duration",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Cold Snap",
@@ -4317,7 +6161,11 @@
         "Duration",
         "Vaal",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Cyclone",
@@ -4329,7 +6177,11 @@
         "Melee",
         "Movement",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Detonate Dead",
@@ -4338,7 +6190,11 @@
         "AoE",
         "Vaal",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Discipline",
@@ -4348,7 +6204,11 @@
         "AoE",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Domination",
@@ -4360,7 +6220,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Double Strike",
@@ -4371,7 +6235,11 @@
         "Duration",
         "Vaal",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Earthquake",
@@ -4382,7 +6250,11 @@
         "Vaal",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Fireball",
@@ -4392,7 +6264,11 @@
         "AoE",
         "Vaal",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Firestorm",
@@ -4402,7 +6278,11 @@
         "Duration",
         "Fire",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Flameblast",
@@ -4412,7 +6292,11 @@
         "Vaal",
         "Fire",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Flicker Strike",
@@ -4423,7 +6307,11 @@
         "Movement",
         "Vaal",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Glacial Hammer",
@@ -4435,7 +6323,11 @@
         "AoE",
         "Vaal",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Grace",
@@ -4445,7 +6337,11 @@
         "AoE",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Ground Slam",
@@ -4455,7 +6351,11 @@
         "Vaal",
         "Slam",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Haste",
@@ -4465,7 +6365,11 @@
         "AoE",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Ice Nova",
@@ -4475,7 +6379,11 @@
         "Vaal",
         "Cold",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Ice Shot",
@@ -4487,7 +6395,11 @@
         "Vaal",
         "Duration",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Immortal Call",
@@ -4496,7 +6408,11 @@
         "Duration",
         "Vaal",
         "Guard"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Impurity of Fire",
@@ -4507,7 +6423,11 @@
         "Duration",
         "Vaal",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Impurity of Ice",
@@ -4518,7 +6438,11 @@
         "Duration",
         "Vaal",
         "Cold"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Impurity of Lightning",
@@ -4529,7 +6453,11 @@
         "Duration",
         "Vaal",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Lightning Arrow",
@@ -4540,7 +6468,11 @@
         "Lightning",
         "Vaal",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Lightning Strike",
@@ -4552,7 +6484,11 @@
         "Vaal",
         "Lightning",
         "Projectile"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Lightning Trap",
@@ -4564,7 +6500,11 @@
         "Duration",
         "Vaal",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Lightning Warp",
@@ -4576,7 +6516,11 @@
         "Lightning",
         "Movement",
         "Travel"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Molten Shell",
@@ -4588,7 +6532,11 @@
         "Physical",
         "Vaal",
         "Guard"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Molten Strike",
@@ -4601,7 +6549,11 @@
         "Fire",
         "Chaining",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Power Siphon",
@@ -4610,7 +6562,11 @@
         "Attack",
         "Projectile",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Rain of Arrows",
@@ -4620,7 +6576,11 @@
         "Projectile",
         "Vaal",
         "Bow"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Reap",
@@ -4630,7 +6590,11 @@
         "AoE",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Reave",
@@ -4639,7 +6603,11 @@
         "AoE",
         "Vaal",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Rejuvenation Totem",
@@ -4649,7 +6617,11 @@
         "Spell",
         "AoE",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Righteous Fire",
@@ -4659,7 +6631,11 @@
         "Fire",
         "Vaal",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Smite",
@@ -4672,7 +6648,11 @@
         "Strike",
         "Aura",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vaal Spark",
@@ -4682,7 +6662,11 @@
         "Duration",
         "Vaal",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Spectral Throw",
@@ -4690,7 +6674,11 @@
         "Attack",
         "Projectile",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Storm Call",
@@ -4700,7 +6688,11 @@
         "Duration",
         "Vaal",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Summon Skeletons",
@@ -4709,7 +6701,11 @@
         "Minion",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vaal Venom Gyre",
@@ -4719,7 +6715,11 @@
         "Chaos",
         "Duration",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vaal Volcanic Fissure",
@@ -4731,7 +6731,11 @@
         "Slam",
         "Fire",
         "Vaal"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Vampiric Link",
@@ -4739,7 +6743,11 @@
         "Spell",
         "Duration",
         "Link"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vengeful Cry",
@@ -4748,7 +6756,11 @@
         "AoE",
         "Duration",
         "Retaliation"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Venom Gyre",
@@ -4757,7 +6769,11 @@
         "Projectile",
         "Chaos",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vigilant Strike",
@@ -4765,7 +6781,11 @@
         "Attack",
         "Melee",
         "Strike"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "Viper Strike",
@@ -4775,7 +6795,11 @@
         "Melee",
         "Strike",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Viper Strike of the Mamba",
@@ -4785,7 +6809,11 @@
         "Melee",
         "Strike",
         "Chaos"
-      ]
+      ],
+      "dexterity_percent": 100,
+      "strength_percent": 0,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Vitality",
@@ -4793,7 +6821,11 @@
         "Aura",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 75,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Void Sphere",
@@ -4804,7 +6836,11 @@
         "Physical",
         "Chaos",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Void Sphere of Rending",
@@ -4815,7 +6851,11 @@
         "Physical",
         "Chaos",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Volatile Dead",
@@ -4823,7 +6863,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Volatile Dead of Confinement",
@@ -4832,7 +6876,11 @@
         "AoE",
         "Fire",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Volatile Dead of Seething",
@@ -4840,7 +6888,11 @@
         "Spell",
         "AoE",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Volcanic Fissure",
@@ -4851,7 +6903,11 @@
         "AoE",
         "Slam",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Volcanic Fissure of Snaking",
@@ -4861,7 +6917,11 @@
         "AoE",
         "Slam",
         "Fire"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Voltaxic Burst",
@@ -4872,7 +6932,11 @@
         "Lightning",
         "Nova",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 0,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vortex",
@@ -4882,7 +6946,11 @@
         "Cold",
         "Duration",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vortex of Projection",
@@ -4892,7 +6960,11 @@
         "Cold",
         "Duration",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Vulnerability",
@@ -4903,7 +6975,11 @@
         "Curse",
         "Physical",
         "Hex"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 60,
+      "intelligence_percent": 40,
+      "primary_attribute": "strength"
     },
     {
       "name": "War Banner",
@@ -4913,7 +6989,11 @@
         "Duration",
         "Aura",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 100,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Warlord's Mark",
@@ -4921,7 +7001,11 @@
         "Spell",
         "Curse",
         "Mark"
-      ]
+      ],
+      "dexterity_percent": 40,
+      "strength_percent": 60,
+      "intelligence_percent": 0,
+      "primary_attribute": "strength"
     },
     {
       "name": "Wave of Conviction",
@@ -4932,7 +7016,11 @@
         "Fire",
         "Lightning",
         "Physical"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Wave of Conviction of Trarthus",
@@ -4943,7 +7031,11 @@
         "Physical",
         "Fire",
         "Nova"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 40,
+      "intelligence_percent": 60,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Whirling Blades",
@@ -4952,7 +7044,11 @@
         "Movement",
         "Travel",
         "Melee"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Wild Strike",
@@ -4967,7 +7063,11 @@
         "AoE",
         "Chaining",
         "Prismatic"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Wild Strike of Extremes",
@@ -4982,7 +7082,11 @@
         "AoE",
         "Chaining",
         "Prismatic"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 40,
+      "intelligence_percent": 0,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Winter Orb",
@@ -4994,7 +7098,11 @@
         "Duration",
         "Projectile",
         "Orb"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Wintertide Brand",
@@ -5004,7 +7112,11 @@
         "Cold",
         "Duration",
         "Brand"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Wither",
@@ -5014,7 +7126,11 @@
         "Duration",
         "Chaos",
         "Channelling"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Withering Step",
@@ -5026,7 +7142,11 @@
         "Blink",
         "Spell",
         "Duration"
-      ]
+      ],
+      "dexterity_percent": 60,
+      "strength_percent": 0,
+      "intelligence_percent": 40,
+      "primary_attribute": "dexterity"
     },
     {
       "name": "Wrath",
@@ -5035,7 +7155,11 @@
         "Spell",
         "AoE",
         "Lightning"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     },
     {
       "name": "Zealotry",
@@ -5044,9 +7168,13 @@
         "Critical",
         "Spell",
         "AoE"
-      ]
+      ],
+      "dexterity_percent": 0,
+      "strength_percent": 0,
+      "intelligence_percent": 100,
+      "primary_attribute": "intelligence"
     }
   ],
-  "last_updated": "2025-07-16T15:23:58.433Z",
+  "last_updated": "2025-07-18T13:10:49.912Z",
   "source": "PoE Wiki API"
 }

@@ -1,0 +1,87 @@
+{
+  "total_count": 6,
+  "modifiers": [
+    {
+      "id": "GlobalSkillGemLevel1",
+      "name": "Exalter's",
+      "stat_text": "+1 to Level of all Skill Gems",
+      "stat_text_raw": "+1 to Level of all Skill Gems",
+      "generation_type": "Prefix",
+      "generation_type_id": 1,
+      "domain": "Item",
+      "domain_id": 1,
+      "tags": "gem",
+      "level": 1,
+      "influence": null
+    },
+    {
+      "id": "GlobalLightningGemLevel1",
+      "name": "Stormbrewer's",
+      "stat_text": "+1 to Level of all Lightning Skill Gems",
+      "stat_text_raw": "+1 to Level of all Lightning Skill Gems",
+      "generation_type": "Prefix",
+      "generation_type_id": 1,
+      "domain": "Item",
+      "domain_id": 1,
+      "tags": "elemental,lightning,gem",
+      "level": 1,
+      "influence": null
+    },
+    {
+      "id": "GlobalColdGemLevel1",
+      "name": "Rimedweller's",
+      "stat_text": "+1 to Level of all Cold Skill Gems",
+      "stat_text_raw": "+1 to Level of all Cold Skill Gems",
+      "generation_type": "Prefix",
+      "generation_type_id": 1,
+      "domain": "Item",
+      "domain_id": 1,
+      "tags": "elemental,cold,gem",
+      "level": 1,
+      "influence": null
+    },
+    {
+      "id": "GlobalPhysicalGemLevel1",
+      "name": "Behemoth's",
+      "stat_text": "+1 to Level of all Physical Skill Gems",
+      "stat_text_raw": "+1 to Level of all Physical Skill Gems",
+      "generation_type": "Prefix",
+      "generation_type_id": 1,
+      "domain": "Item",
+      "domain_id": 1,
+      "tags": "physical,gem",
+      "level": 1,
+      "influence": null
+    },
+    {
+      "id": "GlobalFireGemLevel1",
+      "name": "Vulcanist's",
+      "stat_text": "+1 to Level of all Fire Skill Gems",
+      "stat_text_raw": "+1 to Level of all Fire Skill Gems",
+      "generation_type": "Prefix",
+      "generation_type_id": 1,
+      "domain": "Item",
+      "domain_id": 1,
+      "tags": "elemental,fire,gem",
+      "level": 1,
+      "influence": null
+    },
+    {
+      "id": "GlobalChaosGemLevel1",
+      "name": "Provocateur's",
+      "stat_text": "+1 to Level of all Chaos Skill Gems",
+      "stat_text_raw": "+1 to Level of all Chaos Skill Gems",
+      "generation_type": "Prefix",
+      "generation_type_id": 1,
+      "domain": "Item",
+      "domain_id": 1,
+      "tags": "chaos,gem",
+      "level": 1,
+      "influence": null
+    }
+  ],
+  "last_updated": "2025-07-18T15:00:00.000Z",
+  "source": "Current PoE Database (poedb.tw)",
+  "filter": "Current amulet gem level modifiers only",
+  "notes": "Current craftable amulet modifiers include universal and damage type specific gem level modifiers."
+}

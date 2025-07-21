@@ -15,7 +15,7 @@ const { URL } = require('url');
 
 // Configuration
 const POE_WIKI_API_BASE = 'https://www.poewiki.net/w/api.php';
-const OUTPUT_FILE = 'gems_cleaned.json';
+const OUTPUT_FILE = '../data/gems_cleaned.json';
 
 // Console colors for better output
 const colors = {
@@ -68,7 +68,7 @@ async function fetchGemsFromAPI() {
     const baseParams = {
         action: 'cargoquery',
         tables: 'skill_gems',
-        fields: '_pageName=Page,gem_tags__full=gem tags',
+        fields: '_pageName=Page,gem_tags__full=gem tags,dexterity_percent=dexterity percent,strength_percent=strength percent,intelligence_percent=intelligence percent,primary_attribute=primary attribute',
         limit: '500',
         format: 'json'
     };
@@ -134,24 +134,40 @@ function transformAPIData(apiResponse) {
         const title = item.title;
         
         // Handle different data structures
-        let name, tags;
+        let name, tags, dexterity_percent, strength_percent, intelligence_percent, primary_attribute;
         
         if (title.Page && title['gem tags']) {
             // Skill_gems table structure with aliased field names
             name = title.Page;
             tags = title['gem tags'];
+            dexterity_percent = title['dexterity percent'];
+            strength_percent = title['strength percent'];
+            intelligence_percent = title['intelligence percent'];
+            primary_attribute = title['primary attribute'];
         } else if (title._pageName && title['gem_tags__full']) {
             // Skill_gems table structure with raw field names
             name = title._pageName;
             tags = title['gem_tags__full'];
+            dexterity_percent = title['dexterity percent'];
+            strength_percent = title['strength percent'];
+            intelligence_percent = title['intelligence percent'];
+            primary_attribute = title['primary attribute'];
         } else if (title.name && title.gem_tags) {
             // Items table with gem_tags field
             name = title.name;
             tags = title.gem_tags;
+            dexterity_percent = title['dexterity percent'];
+            strength_percent = title['strength percent'];
+            intelligence_percent = title['intelligence percent'];
+            primary_attribute = title['primary attribute'];
         } else if (title.name) {
             // Items table structure (fallback)
             name = title.name;
             tags = title.tags || '';
+            dexterity_percent = title['dexterity percent'];
+            strength_percent = title['strength percent'];
+            intelligence_percent = title['intelligence percent'];
+            primary_attribute = title['primary attribute'];
         } else {
             skippedCount++;
             return;
@@ -184,9 +200,18 @@ function transformAPIData(apiResponse) {
             return;
         }
         
+        // Parse attribute percentages (convert to numbers, default to 0 if not present)
+        const dex_percent = parseInt(dexterity_percent) || 0;
+        const str_percent = parseInt(strength_percent) || 0;
+        const int_percent = parseInt(intelligence_percent) || 0;
+        
         skillGems.push({
             name: name,
-            tags: tagArray
+            tags: tagArray,
+            dexterity_percent: dex_percent,
+            strength_percent: str_percent,
+            intelligence_percent: int_percent,
+            primary_attribute: primary_attribute || ''
         });
         
         processedCount++;

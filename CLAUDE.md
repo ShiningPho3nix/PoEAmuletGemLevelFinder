@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a lightweight web application for finding Path of Exile amulet prefix modifiers that boost active skill gem levels. The application helps players identify which amulet modifiers will benefit their selected skill gems.
+This is a lightweight web application for finding Path of Exile amulet modifiers that boost active skill gem levels. The application helps players identify which amulet gem level modifiers will benefit their selected skill gems, including combinations and special amulet types.
 
 ## Architecture
 
@@ -18,8 +18,12 @@ This is a lightweight web application for finding Path of Exile amulet prefix mo
 - `index.html`: Main application structure
 - `script.js`: Core application logic and search functionality
 - `styles.css`: UI styling and responsive design
-- `gems_cleaned.json`: Gem database with name and tag arrays (updated via script)
-- `update-gems.js`: Data update utility script for fetching latest gem data
+- `data/gems_cleaned.json`: Gem database with name and tag arrays (updated via script)
+- `data/current_amulet_modifiers.json`: Current amulet gem level modifiers data
+- `scripts/update-gems.js`: Data update utility script for fetching latest gem data
+- `scripts/fetch-modifiers.js`: Script for fetching modifier data from PoE Wiki API
+- `images/focused_amulet.webp`: Focused Amulet icon for UI
+- `images/reflecting_mist.webp`: Reflecting Mist icon for UI
 - `README-UPDATE-SCRIPT.md`: Documentation for the update script
 
 ### Data Model
@@ -51,6 +55,7 @@ python3 -m http.server 8000
 ### Data Updates
 ```bash
 # Update gem data from PoE Wiki API
+cd scripts
 node update-gems.js
 ```
 
@@ -65,18 +70,20 @@ node update-gems.js
 - Real-time autocomplete with 10-result limit
 - Prioritizes exact matches over partial matches
 
-### Modifier Generation (`script.js:144-203`)
-- Matches gems to amulet suffix modifiers based on damage type tags
+### Modifier Generation and Combinations
+- Matches gems to amulet modifiers based on damage type tags
 - Supported damage types: Lightning, Cold, Physical, Fire, Chaos
-- Shows explicit amulet suffix modifiers (+1 to Level of all X Skill Gems)
-- Maximum level boost: 3 (limited by suffix slots)
+- Shows explicit amulet modifiers (+1 to Level of all X Skill Gems)
+- Maximum of 2 modifiers per amulet
+- Four amulet categories: Regular, Focused Amulet (2x), Reflecting Mist (2x), Focused + Reflecting Mist (4x)
+- Level-based grouping with combination generation
 
-### Path of Exile Affix System
-- Equipment has 6 explicit affixes: 3 prefixes + 3 suffixes
-- +Level modifiers are SUFFIX affixes only
-- Maximum possible +level from suffixes: 3 levels
+### Path of Exile Amulet Modifier System
+- Amulets can have up to 2 gem level modifiers (both prefixes)
+- Maximum base level boost: +2 levels (from 2 different modifiers)
 - Generic modifier: "+1 to Level of all Skill Gems" (affects all gems)
 - Specific modifiers: "+1 to Level of all [Type] Skill Gems" (damage type specific)
+- Special amulets can double modifier effects (Focused Amulet, Reflecting Mist)
 
 ### Data Filtering
 - Active skill gems: Searchable gems (support gems excluded)

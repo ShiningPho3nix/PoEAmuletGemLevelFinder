@@ -226,6 +226,7 @@ main {
     border-radius: 6px;
     border-left: 4px solid #666;
     transition: all 0.3s;
+    gap: 10px;
 }
 
 .mod-item:hover {
@@ -265,6 +266,212 @@ main {
 .mod-item.specific .mod-type {
     background: #3498db;
     color: #fff;
+}
+
+/* Influence styling removed - no longer needed */
+
+/* Modifier name styling */
+.mod-name {
+    font-size: 0.9em;
+    color: #bbb;
+    font-style: italic;
+    margin-right: auto;
+}
+
+/* Update mod-item layout for new structure */
+.mod-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+    border-radius: 6px;
+    border-left: 4px solid #666;
+    transition: all 0.3s;
+    gap: 10px;
+}
+
+.mod-text {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+    flex: 1;
+}
+
+/* Influence-specific styling */
+.mod-item.prefix {
+    border-left-color: #e74c3c;
+}
+
+.mod-item.suffix {
+    border-left-color: #3498db;
+}
+
+/* Level group styling */
+.level-group {
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background: #2a2a2a;
+    overflow: hidden;
+}
+
+.level-header {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #fff;
+    padding: 12px 20px;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.combinations-container {
+    padding: 15px;
+}
+
+.combination-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #333;
+    border-radius: 6px;
+    border-left: 4px solid #666;
+    transition: all 0.3s;
+    gap: 12px;
+}
+
+.combination-item:hover {
+    background: #3a3a3a;
+    transform: translateX(3px);
+}
+
+.combination-item:last-child {
+    margin-bottom: 0;
+}
+
+.combination-text {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.1em;
+    flex-shrink: 0;
+    min-width: 200px;
+}
+
+.modifier-details {
+    flex: 1;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+    color: #bbb;
+    line-height: 1.4;
+}
+
+.modifier-detail {
+    color: #ddd;
+}
+
+.modifier-separator {
+    color: #888;
+    font-weight: bold;
+}
+
+/* Focused Amulet styling */
+.focused-amulet-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0 10px 0;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #8e44ad, #9b59b6);
+    border-radius: 6px;
+    border: 2px solid #a569bd;
+}
+
+.focused-amulet-icon {
+    width: 32px;
+    height: 32px;
+    filter: brightness(1.1);
+}
+
+.focused-amulet-text {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.combination-item.focused {
+    border-left-color: #8e44ad;
+    background: linear-gradient(135deg, #333, #444);
+}
+
+.combination-item.focused:hover {
+    background: linear-gradient(135deg, #3a3a3a, #4a4a4a);
+    border-left-color: #a569bd;
+}
+
+/* Reflecting Mist styling */
+.reflecting-mist-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0 10px 0;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    border-radius: 6px;
+    border: 2px solid #5dade2;
+}
+
+.reflecting-mist-icon {
+    width: 32px;
+    height: 32px;
+    filter: brightness(1.1);
+}
+
+.reflecting-mist-text {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.combination-item.reflectingMist {
+    border-left-color: #2980b9;
+    background: linear-gradient(135deg, #333, #444);
+}
+
+.combination-item.reflectingMist:hover {
+    background: linear-gradient(135deg, #3a3a3a, #4a4a4a);
+    border-left-color: #5dade2;
+}
+
+/* Focused + Reflecting Mist styling */
+.focused-reflecting-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0 10px 0;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #8e44ad, #2980b9);
+    border-radius: 6px;
+    border: 2px solid #a569bd;
+}
+
+.focused-reflecting-text {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.combination-item.focusedReflecting {
+    border-left-color: #8e44ad;
+    background: linear-gradient(135deg, #333, #2c3e50);
+}
+
+.combination-item.focusedReflecting:hover {
+    background: linear-gradient(135deg, #3a3a3a, #34495e);
+    border-left-color: #a569bd;
 }
 
 /* Export section */

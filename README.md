@@ -1,19 +1,19 @@
-# PoE Gem Level Finder
+# PoE Amulet Gem Level Finder
 
-A lightweight web application to find Path of Exile amulet prefix modifiers that boost active skill gem levels.
+A lightweight web application to find Path of Exile amulet modifiers that boost active skill gem levels.
 
 ## Features
 
 - **Active Skill Gem Search**: Search through 512 active skill gems with autocomplete (support gems excluded)
-- **Amulet Prefix Modifiers**: Shows only explicit amulet prefix modifiers for damage types
-- **Damage Type Matching**: Automatically matches gems to available Lightning, Cold, Physical, Fire, and Chaos modifiers
+- **Amulet Gem Level Modifiers**: Shows amulet modifiers that boost gem levels for specific damage types
+- **Smart Matching**: Automatically matches gems to available Lightning, Cold, Physical, Fire, and Chaos level modifiers
 - **Export**: Copy to clipboard or export as text file
 - **Responsive Design**: Works on desktop and mobile devices
 
 ## How to Use
 
 1. **Select an Active Skill Gem**: Type in the search box to find any active skill gem
-2. **View Results**: All relevant amulet prefix modifiers will be displayed
+2. **View Results**: All relevant amulet gem level modifiers will be displayed with combination options
 3. **Export**: Copy the results to clipboard or download as a text file
 
 ## Technical Details
@@ -21,11 +21,19 @@ A lightweight web application to find Path of Exile amulet prefix modifiers that
 ### Files Structure
 ```
 /
-├── index.html          # Main application
-├── styles.css          # CSS styling
-├── script.js           # JavaScript functionality
-├── gems_cleaned.json   # Gem database (719 gems)
-└── README.md          # This file
+├── index.html                        # Main application
+├── styles.css                        # CSS styling
+├── script.js                         # JavaScript functionality
+├── data/
+│   ├── gems_cleaned.json            # Gem database (500+ gems)
+│   └── current_amulet_modifiers.json # Current amulet modifier data
+├── scripts/
+│   ├── update-gems.js               # Data update utility
+│   └── fetch-modifiers.js           # Modifier fetching utility
+├── images/
+│   ├── focused_amulet.webp          # Focused Amulet icon
+│   └── reflecting_mist.webp         # Reflecting Mist icon
+└── README.md                        # This file
 ```
 
 ### Data Source
