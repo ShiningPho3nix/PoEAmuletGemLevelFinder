@@ -117,6 +117,29 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
 
+    # Generate version tag for gem data updates
+    - name: Generate version tag
+      if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      id: generate_tag
+      run: |
+        # Get current date in YYYY-MM-DD format
+        CURRENT_DATE=$(date -u +"%Y-%m-%d")
+        
+        # Create version tag in format: gems-YYYY-MM-DD
+        VERSION_TAG="gems-$CURRENT_DATE"
+        
+        # Check if tag already exists (in case of multiple runs on same day)
+        COUNTER=1
+        FINAL_TAG="$VERSION_TAG"
+        
+        while git rev-parse "$FINAL_TAG" >/dev/null 2>&1; do
+          FINAL_TAG="${VERSION_TAG}-${COUNTER}"
+          COUNTER=$((COUNTER + 1))
+        done
+        
+        echo "version_tag=$FINAL_TAG" >> $GITHUB_OUTPUT
+        echo "📏 Generated version tag: $FINAL_TAG"
+
     # Commit and push changes
     - name: Commit and push changes
       if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
@@ -131,6 +154,7 @@ jobs:
         - Last updated: ${{ steps.gem_stats.outputs.last_updated }}
         - Source: PoE Wiki API
         - Automated update via GitHub Actions
+        - Version: ${{ steps.generate_tag.outputs.version_tag }}
         
         🤖 Generated with GitHub Actions
         Co-Authored-By: update-gems-bot <action@github.com>"
@@ -142,6 +166,31 @@ jobs:
         git push origin main
         
         echo "✅ Successfully committed and pushed gem data updates"
+
+    # Create and push version tag
+    - name: Create version tag
+      if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        # Create annotated tag with details
+        TAG_MESSAGE="Gem Data Update ${{ steps.generate_tag.outputs.version_tag }}
+
+        📊 Gem Statistics:
+        - Total active skill gems: ${{ steps.gem_stats.outputs.total_gems }}
+        - Last updated: ${{ steps.gem_stats.outputs.last_updated }}
+        - Data source: PoE Wiki API
+        
+        🤖 Automated gem data update
+        Generated on: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        
+        This tag marks a version where gem data was updated from the Path of Exile Wiki."
+        
+        # Create the annotated tag
+        git tag -a "${{ steps.generate_tag.outputs.version_tag }}" -m "$TAG_MESSAGE"
+        
+        # Push the tag
+        git push origin "${{ steps.generate_tag.outputs.version_tag }}"
+        
+        echo "✅ Successfully created and pushed tag: ${{ steps.generate_tag.outputs.version_tag }}"
 
     # Clean up backup files
     - name: Cleanup backup files
