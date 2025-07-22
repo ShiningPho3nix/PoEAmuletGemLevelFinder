@@ -161,8 +161,8 @@ jobs:
         # Commit the changes
         git commit -m "$COMMIT_MSG"
         
-        # Push to the main branch
-        git push origin main
+        # Push to the master branch
+        git push origin master
         
         echo "✅ Successfully committed and pushed gem data updates"
 
