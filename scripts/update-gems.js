@@ -119,7 +119,7 @@ async function fetchGemsFromAPI() {
 }
 
 // Transform API response to match current data structure
-function transformAPIData(apiResponse) {
+function transformAPIData(apiResponse, preserveTimestamp = false) {
     log('🔄 Transforming API data...', colors.blue);
     
     if (!apiResponse.cargoquery || !Array.isArray(apiResponse.cargoquery)) {
@@ -222,10 +222,21 @@ function transformAPIData(apiResponse) {
     // Sort gems alphabetically by name
     skillGems.sort((a, b) => a.name.localeCompare(b.name));
     
+    // Read existing data to preserve timestamp if no changes
+    let existingTimestamp = new Date().toISOString();
+    if (preserveTimestamp) {
+        try {
+            const existingData = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf8'));
+            existingTimestamp = existingData.last_updated || existingTimestamp;
+        } catch (error) {
+            // File doesn't exist or is invalid, use new timestamp
+        }
+    }
+    
     return {
         total_count: skillGems.length,
         skill_gems: skillGems,
-        last_updated: new Date().toISOString(),
+        last_updated: preserveTimestamp ? existingTimestamp : new Date().toISOString(),
         source: 'PoE Wiki API'
     };
 }
@@ -244,6 +255,20 @@ function saveToFile(data, filename) {
     }
 }
 
+// Check if gem data has actually changed (excluding timestamp)
+function hasGemDataChanged(newData, existingData) {
+    if (!existingData) return true;
+    
+    // Compare gem count
+    if (newData.total_count !== existingData.total_count) return true;
+    
+    // Compare gems (excluding timestamps in the data structure)
+    const newGems = JSON.stringify(newData.skill_gems);
+    const existingGems = JSON.stringify(existingData.skill_gems);
+    
+    return newGems !== existingGems;
+}
+
 // Main execution function
 async function main() {
     log('🚀 PoE Gem Level Finder - Data Update Utility', colors.bright);
@@ -253,16 +278,39 @@ async function main() {
         // Fetch data from API
         const apiResponse = await fetchGemsFromAPI();
         
-        // Transform data
-        const transformedData = transformAPIData(apiResponse);
+        // Read existing data to compare
+        let existingData = null;
+        try {
+            const existingContent = fs.readFileSync(OUTPUT_FILE, 'utf8');
+            existingData = JSON.parse(existingContent);
+        } catch (error) {
+            log('📄 No existing data file found, creating new one...', colors.yellow);
+        }
+        
+        // Transform data (preserve timestamp initially)
+        const transformedData = transformAPIData(apiResponse, true);
+        
+        // Check if gem data actually changed
+        const hasChanges = hasGemDataChanged(transformedData, existingData);
+        
+        if (!hasChanges) {
+            log('📊 No changes detected in gem data', colors.yellow);
+            log(`📈 Total gems: ${transformedData.total_count}`, colors.yellow);
+            log(`🕐 Last updated: ${transformedData.last_updated}`, colors.yellow);
+            log('✅ Data is already up to date!', colors.green);
+            return;
+        }
+        
+        // Update timestamp only if there are actual changes
+        const finalData = transformAPIData(apiResponse, false);
         
         // Save to file
-        saveToFile(transformedData, OUTPUT_FILE);
+        saveToFile(finalData, OUTPUT_FILE);
         
         log('', colors.reset);
         log('🎉 Data update completed successfully!', colors.green);
-        log(`📈 Total gems: ${transformedData.total_count}`, colors.yellow);
-        log(`🕐 Last updated: ${transformedData.last_updated}`, colors.yellow);
+        log(`📈 Total gems: ${finalData.total_count}`, colors.yellow);
+        log(`🕐 Last updated: ${finalData.last_updated}`, colors.yellow);
         log(`📂 Output file: ${OUTPUT_FILE}`, colors.yellow);
         
     } catch (error) {
