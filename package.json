@@ -1,6 +1,6 @@
 {
   "name": "poe-amulet-gem-level-finder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Path of Exile amulet gem level modifier finder",
   "main": "index.html",
   "scripts": {
