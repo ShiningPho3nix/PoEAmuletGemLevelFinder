@@ -3,14 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PoE Amulet Gem Level Finder</title>
+    <title>Path of Exile Amulet Calculator - Find Best Gem Level Modifiers | PoE Tools</title>
+    <meta name="description" content="Free Path of Exile amulet calculator to find optimal gem level modifiers. Calculate +1 to +8 level combinations for Lightning, Fire, Cold, Physical & Chaos gems with Focused Amulet and Reflecting Mist.">
+    <meta name="keywords" content="Path of Exile, PoE amulet calculator, gem level modifiers, PoE tools, amulet mods, gem calculator, focused amulet, reflecting mist">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="author" content="PoE Amulet Gem Level Finder">
+    <link rel="canonical" href="https://shiningpho3nix.github.io/PoEAmuletGemLevelFinder/">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Path of Exile Amulet Calculator - Find Best Gem Level Modifiers">
+    <meta property="og:description" content="Free PoE amulet calculator to find optimal gem level modifiers. Calculate combinations with Focused Amulet (doubles effects) and Reflecting Mist for maximum gem levels.">
+    <meta property="og:url" content="https://shiningpho3nix.github.io/PoEAmuletGemLevelFinder/">
+    <meta property="og:site_name" content="PoE Amulet Gem Level Finder">
+    <meta property="og:image" content="https://shiningpho3nix.github.io/PoEAmuletGemLevelFinder/images/focused_amulet.webp">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta property="og:image:alt" content="Path of Exile Focused Amulet - doubles gem level modifier effects">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Path of Exile Amulet Calculator - Find Best Gem Level Modifiers">
+    <meta name="twitter:description" content="Free PoE amulet calculator to find optimal gem level modifiers. Calculate combinations with Focused Amulet and Reflecting Mist.">
+    <meta name="twitter:image" content="https://shiningpho3nix.github.io/PoEAmuletGemLevelFinder/images/focused_amulet.webp">
+    <meta name="twitter:image:alt" content="Path of Exile Focused Amulet icon">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Path of Exile Amulet Calculator",
+        "description": "Free Path of Exile amulet calculator to find optimal gem level modifiers. Calculate +1 to +8 level combinations for Lightning, Fire, Cold, Physical & Chaos gems with Focused Amulet and Reflecting Mist.",
+        "url": "https://shiningpho3nix.github.io/PoEAmuletGemLevelFinder/",
+        "applicationCategory": "GameApplication",
+        "applicationSubCategory": "Calculator",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "about": {
+            "@type": "VideoGame",
+            "name": "Path of Exile",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Grinding Gear Games"
+            }
+        },
+        "creator": {
+            "@type": "Person",
+            "name": "ShiningPho3nix"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "featureList": [
+            "Calculate amulet gem level modifiers",
+            "Support for all damage types (Lightning, Fire, Cold, Physical, Chaos)",
+            "Focused Amulet combinations (2x effects)",
+            "Reflecting Mist combinations (2x effects)", 
+            "Combined Focused + Reflecting Mist (4x effects)",
+            "Interactive gem search and selection",
+            "Color-coded results by damage type",
+            "Collapsible level groupings"
+        ]
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Path of Exile Amulet Gem Level Finder</h1>
-            <p>Find amulet modifiers that boost your skill gem levels</p>
+            <h1>Path of Exile Amulet Calculator</h1>
+            <p>Find the best amulet modifiers to boost your skill gem levels with Focused Amulet and Reflecting Mist combinations</p>
         </header>
 
         <main>
@@ -23,7 +89,7 @@
                 
                 
                 <div class="gem-info" id="gem-info" style="display: none;">
-                    <h3>Selected Gem:</h3>
+                    <h3>Selected Gem</h3>
                     <div class="gem-details">
                         <span class="gem-name" id="selected-gem-name"></span>
                         <div class="gem-tags" id="selected-gem-tags"></div>
@@ -32,7 +98,7 @@
             </div>
 
             <div class="results-section" id="results-section" style="display: none;">
-                <h3>Available Amulet Modifiers:</h3>
+                <h2>Available Amulet Modifiers</h2>
                 
                 <div class="mod-list" id="mod-list">
                     <!-- Modifiers will be populated here -->
@@ -40,9 +106,43 @@
                 
             </div>
         </main>
+        
+        <section class="faq-section collapsed" id="faq-section">
+            <h2 class="faq-header" id="faq-header">
+                <span>Frequently Asked Questions</span>
+                <span class="collapse-icon">▼</span>
+            </h2>
+            
+            <div class="faq-content" id="faq-content">
+            <div class="faq-item">
+                <h3>How do I calculate gem levels with amulets in Path of Exile?</h3>
+                <p>Use this calculator to find the best amulet modifiers for your gems. Simply search for your skill gem and the tool will show all available modifiers that boost its level, including combinations with Focused Amulet (doubles effects) and Reflecting Mist (1.5x-2.1x multiplier on rare amulets).</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What is a Focused Amulet in PoE?</h3>
+                <p>A Focused Amulet is an experimental base type with the implicit "100% increased Explicit Modifier magnitudes". This doubles all explicit modifiers on the amulet. It can only have 2 prefixes and 1 suffix, making it perfect for gem level modifiers since both +gem level prefixes get doubled.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How does Reflecting Mist work with amulets?</h3>
+                <p>Reflecting Mist creates two opposite rare mirrored copies with modifier magnitudes increased by 1.5x to 2.1x randomly. Modifiers are randomly distributed as positive or negative between the copies and can mix on the same item. Works on rare amulets and special bases like Focused Amulet and Simplex Amulet, but not on corrupted items or items with sockets. Obtained from tier 16+ map encounters.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Which damage types work with amulet gem level modifiers?</h3>
+                <p>Amulet modifiers work with Lightning, Fire, Cold, Physical, and Chaos damage gems. There are also universal modifiers that affect all skill gems. You can combine the universal "+1 to all skill gems" with one damage-specific modifier, but cannot have multiple damage-type modifiers on the same amulet.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What's the maximum gem level boost from amulets?</h3>
+                <p>The theoretical maximum is +8 gem levels using a reflected Focused Amulet with two +1 gem level prefixes, where both modifiers get >2.0x multiplier from Reflecting Mist. More realistically, a standard Focused Amulet provides +4 levels (two +1 prefixes × 2 from implicit). Note that negative modifiers may appear on mirrored copies.</p>
+            </div>
+            </div>
+        </section>
 
         <footer>
-            <p>Data from Path of Exile Wiki | Total Gems: <span id="gem-count">0</span></p>
+            <p>Data from Path of Exile Wiki | Total Active Skill Gems: <span id="gem-count">0</span> | Free PoE amulet calculator and gem level optimizer</p>
         </footer>
     </div>
 

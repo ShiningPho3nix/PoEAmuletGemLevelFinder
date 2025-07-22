@@ -392,6 +392,18 @@ main {
     background: linear-gradient(135deg, #3498db, #2674a4);
 }
 
+.level-header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency-icon {
+    width: 24px;
+    height: 24px;
+    filter: brightness(1.1);
+}
+
 .level-header .collapse-icon {
     font-size: 1.2em;
     font-weight: bold;
@@ -588,6 +600,82 @@ main {
 
 .action-btn:active {
     transform: translateY(0);
+}
+
+/* FAQ Section */
+.faq-section {
+    background: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.faq-header {
+    color: #3498db;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 15px 25px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+    background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+}
+
+.faq-header:hover {
+    background: linear-gradient(135deg, #3a3a3a, #444);
+}
+
+.faq-header .collapse-icon {
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.faq-section.collapsed .collapse-icon {
+    transform: rotate(-90deg);
+}
+
+.faq-content {
+    padding: 20px 25px;
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-section.collapsed .faq-content {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #333;
+    border-radius: 6px;
+    border-left: 3px solid #3498db;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item h3 {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.faq-item p {
+    color: #bbb;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 0.9em;
 }
 
 /* Footer */
