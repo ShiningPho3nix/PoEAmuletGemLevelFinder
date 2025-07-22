@@ -1,0 +1,178 @@
+name: Update Gem Data
+
+# Triggers for the workflow
+on:
+  # Scheduled run: Every Sunday at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+  
+  # Manual trigger: Allow manual runs from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+# Set permissions for the workflow
+permissions:
+  contents: write  # Allow pushing commits
+  actions: read    # Allow reading workflow information
+
+jobs:
+  update-gems:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        # Use personal access token to allow pushing
+        token: ${{ secrets.GITHUB_TOKEN }}
+        # Fetch full history for better git operations
+        fetch-depth: 0
+
+    # Setup Node.js environment
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    # Install dependencies if package.json exists
+    - name: Install dependencies
+      working-directory: ./scripts
+      run: |
+        if [ -f "package.json" ]; then
+          npm ci
+        else
+          echo "No package.json found, using Node.js built-in modules"
+        fi
+
+    # Create backup of current data
+    - name: Backup current gem data
+      run: |
+        if [ -f "data/gems_cleaned.json" ]; then
+          cp data/gems_cleaned.json data/gems_cleaned.json.backup
+          echo "✅ Created backup of current gem data"
+        else
+          echo "⚠️ No existing gem data found to backup"
+        fi
+
+    # Run the gem update script
+    - name: Update gem data
+      id: update_gems
+      working-directory: ./scripts
+      run: |
+        echo "🚀 Starting gem data update..."
+        
+        # Run the update script and capture output
+        if node update-gems.js; then
+          echo "✅ Gem update script completed successfully"
+          echo "update_success=true" >> $GITHUB_OUTPUT
+        else
+          echo "❌ Gem update script failed"
+          echo "update_success=false" >> $GITHUB_OUTPUT
+          exit 1
+        fi
+
+    # Check if data actually changed
+    - name: Check for data changes
+      id: check_changes
+      run: |
+        if [ -f "data/gems_cleaned.json.backup" ]; then
+          if cmp -s data/gems_cleaned.json data/gems_cleaned.json.backup; then
+            echo "📊 No changes detected in gem data"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "📈 Changes detected in gem data"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+        else
+          echo "📊 New gem data file created"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    # Get gem count for commit message
+    - name: Get gem statistics
+      id: gem_stats
+      run: |
+        if [ -f "data/gems_cleaned.json" ]; then
+          TOTAL_GEMS=$(jq -r '.total_count' data/gems_cleaned.json)
+          LAST_UPDATED=$(jq -r '.last_updated' data/gems_cleaned.json)
+          echo "total_gems=$TOTAL_GEMS" >> $GITHUB_OUTPUT
+          echo "last_updated=$LAST_UPDATED" >> $GITHUB_OUTPUT
+          echo "📊 Found $TOTAL_GEMS total gems"
+        else
+          echo "total_gems=0" >> $GITHUB_OUTPUT
+          echo "last_updated=unknown" >> $GITHUB_OUTPUT
+        fi
+
+    # Configure git for commits
+    - name: Configure git
+      if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+
+    # Commit and push changes
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        # Add the updated gem data file
+        git add data/gems_cleaned.json
+        
+        # Create commit message with details
+        COMMIT_MSG="🤖 Auto-update gem data: ${{ steps.gem_stats.outputs.total_gems }} gems
+
+        - Total active skill gems: ${{ steps.gem_stats.outputs.total_gems }}
+        - Last updated: ${{ steps.gem_stats.outputs.last_updated }}
+        - Source: PoE Wiki API
+        - Automated update via GitHub Actions
+        
+        🤖 Generated with GitHub Actions
+        Co-Authored-By: update-gems-bot <action@github.com>"
+        
+        # Commit the changes
+        git commit -m "$COMMIT_MSG"
+        
+        # Push to the main branch
+        git push origin main
+        
+        echo "✅ Successfully committed and pushed gem data updates"
+
+    # Clean up backup files
+    - name: Cleanup backup files
+      if: always()
+      run: |
+        if [ -f "data/gems_cleaned.json.backup" ]; then
+          rm data/gems_cleaned.json.backup
+          echo "🧹 Cleaned up backup files"
+        fi
+
+    # Create summary for GitHub Actions UI
+    - name: Create job summary
+      if: always()
+      run: |
+        echo "# 📊 Gem Data Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.update_gems.outputs.update_success }}" == "true" ]; then
+          echo "✅ **Update Status**: Success" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ **Update Status**: Failed" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "📈 **Total Gems**: ${{ steps.gem_stats.outputs.total_gems }}" >> $GITHUB_STEP_SUMMARY
+        echo "🕐 **Last Updated**: ${{ steps.gem_stats.outputs.last_updated }}" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+          echo "🔄 **Changes**: Data updated and committed" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "📊 **Changes**: No changes detected" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🌐 **Website**: [PoE Amulet Gem Level Finder](https://shiningpho3nix.github.io/PoEAmuletGemLevelFinder/)" >> $GITHUB_STEP_SUMMARY
